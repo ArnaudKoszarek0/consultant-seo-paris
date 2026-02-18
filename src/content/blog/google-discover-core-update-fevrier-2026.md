@@ -1,46 +1,44 @@
 ---
-title: "Google Discover Core Update février 2026 : ce qui change pour votre trafic"
-description: "Google lance une mise à jour majeure de Discover ciblant le contenu local, le clickbait et l'expertise thématique. Analyse complète de l'impact."
-date: "2026-02-12"
-tags: ["seo", "google-discover", "algorithm-update"]
+title: "Google Discover Core Update février 2026 : ce que ça change vraiment"
+description: "Analyse de la mise à jour Discover de février 2026 : pertinence locale, expertise thématique et impact réel sur le SEO classique."
+date: "2026-02-18"
+tags: ["seo", "google", "actualite", "algorithm-update"]
 ---
 
-Google vient de lâcher une bombe sur Discover. Le 5 février 2026, Mountain View a lancé ce qu'ils appellent la "February 2026 Discover Core Update". Pas une mise à jour Search classique. Une refonte complète de la façon dont Discover sélectionne et affiche le contenu.
+# Google Discover Core Update février 2026 : ce que ça change vraiment
 
-Et franchement, il était temps.
+Google vient de lancer une mise à jour qui ne concerne pas la recherche classique. C'est **Discover** qui est visé. Et pourtant, les outils de tracking mesurent une volatilité de **9.3 sur 10** dans les SERPs traditionnelles. Contradiction ? Pas tant que ça.
 
-## Ce qui change concrètement
+## Ce que Google annonce officiellement
 
-Trois axes principaux dans cette mise à jour :
+Le **5 février 2026**, Google a déployé un "Discover core update" ciblant le flux personnalisé qu'on retrouve sur l'app Google et la page d'accueil mobile. Trois axes principaux.
 
-**Le contenu local passe en priorité.** Discover va maintenant favoriser les sites basés dans le pays de l'utilisateur. Un lecteur français verra davantage de contenus produits par des sites français. Simple, logique, et ça va faire mal aux sites américains qui trustaient le trafic Discover partout dans le monde.
+**La pertinence locale.** Discover va maintenant favoriser les contenus produits par des sites du pays de l'utilisateur. Un site français qui publie pour une audience française sera privilégié face à un site américain traduit à la va-vite. C'est une bonne nouvelle pour les éditeurs locaux. Moins bonne pour ceux qui spammaient du contenu multilingue générique depuis l'étranger.
 
-**Le clickbait prend une claque.** Google réduit la visibilité du contenu sensationnaliste. Les titres putaclic du type "Vous n'allez pas croire ce qui s'est passé" vont perdre en visibilité. On ne va pas pleurer.
+**La fin du clickbait (enfin presque).** Les titres sensationnels et les articles creux sont dépriorisés. Google veut de la profondeur et de l'authenticité. On verra combien de temps ça tient face aux métriques d'engagement, mais l'intention est là.
 
-**L'expertise thématique devient le critère clé.** Google évalue désormais l'expertise site par site, mais surtout **sujet par sujet**. Leur exemple est parlant : un site d'actualité locale avec une rubrique jardinage bien fournie peut être reconnu expert en jardinage. Par contre, un site de critiques cinéma qui publie un article isolé sur le jardinage, non.
+**L'expertise thématique.** Google a donné un exemple parlant : un site d'actualité locale avec une rubrique jardinage bien fournie peut être reconnu comme expert en jardinage. Un site de critiques de films qui publie un seul article sur le jardinage, non. C'est du **E-E-A-T appliqué au niveau des sections**, pas seulement du domaine entier.
 
-## Le déploiement en deux temps
+## Le décalage entre l'annonce et la réalité
 
-Pour l'instant, la mise à jour touche uniquement les **utilisateurs anglophones aux États-Unis**. Le déploiement complet prend environ deux semaines. Ensuite, Google étendra progressivement à tous les pays et toutes les langues dans les mois qui viennent.
+Google dit que c'est limité à Discover. Les données disent autre chose.
 
-Concrètement pour le marché français : on n'est pas encore concernés directement. Mais quand ça arrivera chez nous, attendez-vous à des mouvements significatifs dans vos stats Discover.
+Les outils comme Semrush et Sistrix montrent des mouvements de rankings significatifs dans la recherche organique classique depuis le 5 février. Une volatilité à 9.3/10, c'est le niveau d'un core update majeur. Deux hypothèses. Soit Google a profité de la mise à jour Discover pour ajuster d'autres signaux en parallèle. Soit les changements dans l'évaluation de l'expertise et de la pertinence locale se propagent naturellement aux résultats de recherche.
 
-## Qui va gagner, qui va perdre
+Dans les deux cas, les conséquences sont réelles pour le SEO classique.
 
-Les **gagnants** : les médias locaux, les sites spécialisés avec une vraie ligne éditoriale, les créateurs de contenu original et approfondi. Si vous publiez du contenu expert dans votre niche depuis des années, cette update est faite pour vous.
+## Ce que ça implique concrètement
 
-Les **perdants** : les fermes à contenu, les agrégateurs qui reformulent sans valeur ajoutée, les sites qui jouent sur le sensationnel pour gratter du clic. Et aussi les sites non-US qui ciblaient le public américain, au moins temporairement.
+**Pour les sites français**, c'est plutôt positif. Si vous produisez du contenu de qualité en français, pour une audience française, depuis la France, vous êtes dans la bonne direction. Le signal de pertinence locale joue en votre faveur.
 
-Google a testé cette mise à jour en interne et affirme que les utilisateurs trouvent Discover "plus utile et pertinent" avec ces changements. On verra ce que disent les données réelles dans quelques semaines.
+**Pour les stratégies de contenu**, l'heure est à la spécialisation. Avoir une expertise démontrée sur des sujets précis compte plus que jamais. Un blog d'entreprise qui traite 50 sujets en surface perdra face à un site qui en traite 5 en profondeur.
 
-## Ce que ça implique pour votre stratégie
+**Pour les créateurs de contenu IA**, c'est un signal de plus. Le contenu générique produit en masse, sans angle ni expertise, va continuer à perdre du terrain. L'IA peut aider à produire, mais elle ne remplace pas la connaissance terrain.
 
-Si Discover représente une part significative de votre trafic (et pour certains éditeurs, ça peut monter à **30-40% du trafic total**), il faut prendre cette update au sérieux.
+## Mon avis
 
-Pas de panique pour autant. Les recommandations de Google restent les mêmes que pour toute core update : produire du **contenu de qualité**, pensé pour les utilisateurs, pas pour les algorithmes. Original. Approfondi. Signé par des gens qui savent de quoi ils parlent.
+Cette mise à jour va dans le bon sens. Google renforce ce qu'il prêche depuis des années avec E-E-A-T, mais cette fois avec des mécanismes concrets et mesurables. La pertinence locale est un vrai plus pour les marchés non anglophones. Et la reconnaissance d'expertise par section, pas seulement par domaine, est une évolution logique.
 
-La nouveauté, c'est cette notion d'expertise thématique granulaire. Google ne regarde plus votre site comme un bloc monolithique. Il analyse votre autorité sujet par sujet. Si vous êtes un site généraliste, assurez-vous que chaque verticale a suffisamment de profondeur pour être crédible.
+Le déploiement est en cours, d'abord en anglais aux Etats-Unis, avec une extension mondiale prévue dans les prochains mois. Surveillez vos données Discover dans la Search Console. Si vous voyez des baisses, regardez d'abord la qualité de vos titres et la profondeur de votre contenu avant de paniquer.
 
-Mon conseil : allez dans la Search Console, onglet Discover. Regardez vos données des 28 derniers jours. Notez vos métriques actuelles. Quand la mise à jour arrivera en France, vous aurez une baseline propre pour mesurer l'impact.
-
-Cette update confirme une tendance de fond : Google veut que Discover devienne un vrai produit éditorial de qualité, pas un déversoir de contenus optimisés pour le clic. Et c'est plutôt une bonne nouvelle pour ceux qui font du SEO sérieux.
+Le SEO en 2026 n'a jamais autant récompensé ceux qui font bien leur travail. C'est presque rassurant.
