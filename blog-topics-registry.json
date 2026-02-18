@@ -1,0 +1,50 @@
+{
+  "description": "Registre des sujets déjà traités sur le blog consultant-seo.paris. Chaque entrée contient le slug, les thèmes couverts et les mots-clés principaux. Le cron de publication DOIT consulter ce fichier avant de rédiger un nouvel article pour éviter les doublons.",
+  "articles": [
+    {
+      "slug": "pourquoi-votre-site-ne-se-positionne-pas",
+      "themes": ["diagnostic SEO", "erreurs courantes", "positionnement Google"],
+      "keywords": ["positionnement", "erreurs SEO", "diagnostic"]
+    },
+    {
+      "slug": "zero-click-search-69-pourcent-strategies",
+      "themes": ["zero-click searches", "AI Overviews impact", "stratégies alternatives trafic"],
+      "keywords": ["zero-click", "69%", "recherches sans clic", "audiences propriétaires"]
+    },
+    {
+      "slug": "ai-overviews-ai-mode-serp-2026",
+      "themes": ["AI Overviews", "AI Mode Google", "transformation SERP", "SGE"],
+      "keywords": ["AI Overviews", "AI Mode", "SERP 2026", "SGE"]
+    },
+    {
+      "slug": "brand-seo-autorite-marque-2026",
+      "themes": ["SEO de marque", "brand authority", "E-E-A-T", "signaux de marque"],
+      "keywords": ["marque", "autorité", "brand SEO", "backlinks vs marque"]
+    },
+    {
+      "slug": "geo-generative-engine-optimization-guide",
+      "themes": ["GEO", "optimisation pour IA", "ChatGPT SEO", "Perplexity"],
+      "keywords": ["GEO", "Generative Engine Optimization", "IA générative"]
+    },
+    {
+      "slug": "google-discover-core-update-fevrier-2026",
+      "themes": ["Google Discover", "Core Update février 2026", "volatilité SERP", "E-E-A-T"],
+      "keywords": ["Discover", "Core Update", "février 2026", "clickbait"]
+    },
+    {
+      "slug": "search-console-ia-configuration-automatique",
+      "themes": ["Search Console", "IA intégrée", "configuration automatique"],
+      "keywords": ["Search Console", "IA", "configuration", "langage naturel"]
+    },
+    {
+      "slug": "volatilite-rankings-google-fevrier-2026",
+      "themes": ["volatilité rankings", "Google février 2026", "gagnants perdants"],
+      "keywords": ["volatilité", "rankings", "février 2026", "fluctuations"]
+    }
+  ],
+  "excluded_angles": [
+    "Ne plus traiter : volatilité Google février 2026 (2 articles déjà)",
+    "Ne plus traiter : AI Overviews impact général (2 articles déjà, sauf angle très spécifique)",
+    "Ne plus traiter : Core Update février 2026 (couvert)"
+  ]
+}
