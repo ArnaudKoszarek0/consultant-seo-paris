@@ -12,34 +12,80 @@ import Base from '../layouts/Base.astro';
       Décrivez-moi votre situation en quelques lignes. Je reviens vers vous sous 24h.
     </p>
 
-    <form action="https://formspree.io/f/PLACEHOLDER" method="POST" class="space-y-6">
+    <form id="contact-form" class="space-y-6">
       <div class="grid md:grid-cols-2 gap-6">
         <div>
           <label for="name" class="block text-sm font-medium mb-2">Nom</label>
           <input type="text" id="name" name="name" required
-            class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gray-400 transition" />
+            class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-emerald-400 transition" />
         </div>
         <div>
           <label for="email" class="block text-sm font-medium mb-2">Email</label>
           <input type="email" id="email" name="email" required
-            class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gray-400 transition" />
+            class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-emerald-400 transition" />
         </div>
       </div>
       <div>
         <label for="website" class="block text-sm font-medium mb-2">Votre site web</label>
         <input type="url" id="website" name="website" placeholder="https://"
-          class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gray-400 transition" />
+          class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-emerald-400 transition" />
       </div>
       <div>
         <label for="message" class="block text-sm font-medium mb-2">Votre besoin</label>
         <textarea id="message" name="message" rows="5" required
-          class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gray-400 transition resize-none"
+          class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-emerald-400 transition resize-none"
           placeholder="Décrivez votre situation actuelle et ce que vous aimeriez améliorer..."></textarea>
       </div>
-      <button type="submit"
+      <button type="submit" id="submit-btn"
         class="bg-emerald-500 text-white px-8 py-3 rounded-lg hover:bg-emerald-600 transition font-medium">
         Envoyer
       </button>
+      <div id="form-status" class="hidden mt-4 p-4 rounded-lg text-center"></div>
     </form>
   </section>
+
+  <script>
+    const form = document.getElementById('contact-form');
+    const btn = document.getElementById('submit-btn');
+    const status = document.getElementById('form-status');
+    const WORKER_URL = 'https://contact-form-consultant-seo.arnaudkoszarek0.workers.dev';
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      btn.disabled = true;
+      btn.textContent = 'Envoi en cours...';
+      status.classList.add('hidden');
+
+      const data = {
+        name: form.name.value,
+        email: form.email.value,
+        website: form.website.value,
+        message: form.message.value,
+      };
+
+      try {
+        const res = await fetch(WORKER_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data),
+        });
+
+        const result = await res.json();
+
+        if (res.ok) {
+          status.textContent = 'Message envoyé ! Je reviens vers vous sous 24h.';
+          status.className = 'mt-4 p-4 rounded-lg text-center bg-emerald-50 text-emerald-700';
+          form.reset();
+        } else {
+          throw new Error(result.error || 'Erreur');
+        }
+      } catch (err) {
+        status.textContent = 'Erreur lors de l\'envoi. Contactez-moi directement à contact@consultant-seo.paris';
+        status.className = 'mt-4 p-4 rounded-lg text-center bg-red-50 text-red-700';
+      }
+
+      btn.disabled = false;
+      btn.textContent = 'Envoyer';
+    });
+  </script>
 </Base>

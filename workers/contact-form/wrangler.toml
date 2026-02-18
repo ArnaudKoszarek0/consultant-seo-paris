@@ -1,0 +1,9 @@
+name = "contact-form-consultant-seo"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://consultant-seo.paris"
+TO_EMAIL = "koszarek.arnaud@gmail.com"
+
+# Email routing via MailChannels (free on CF Workers)
