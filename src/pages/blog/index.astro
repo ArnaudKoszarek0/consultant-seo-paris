@@ -17,7 +17,7 @@ const posts = (await getCollection('blog')).sort(
 
     <div class="space-y-8">
       {posts.map(post => (
-        <a href={`/blog/${post.id}`} class="block group">
+        <a href={`/blog/${post.id.replace(/\.md$/, '')}`} class="block group">
           <article class="border-b border-gray-100 pb-8">
             <time class="text-sm text-gray-400">{new Date(post.data.date).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}</time>
             <h2 class="text-xl font-bold mt-1 mb-2 group-hover:text-gray-600 transition">{post.data.title}</h2>
