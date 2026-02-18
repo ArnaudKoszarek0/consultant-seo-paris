@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Contact - Arnaud Koszarek, Consultant SEO Paris"
+  description="Contactez-moi pour discuter de votre projet SEO. Premier échange gratuit."
+>
+  <section class="max-w-3xl mx-auto px-6 py-16">
+    <h1 class="text-3xl md:text-4xl font-bold mb-4">Parlons de votre projet</h1>
+    <p class="text-gray-600 text-lg mb-10">
+      Décrivez-moi votre situation en quelques lignes. Je reviens vers vous sous 24h.
+    </p>
+
+    <form action="https://formspree.io/f/PLACEHOLDER" method="POST" class="space-y-6">
+      <div class="grid md:grid-cols-2 gap-6">
+        <div>
+          <label for="name" class="block text-sm font-medium mb-2">Nom</label>
+          <input type="text" id="name" name="name" required
+            class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gray-400 transition" />
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium mb-2">Email</label>
+          <input type="email" id="email" name="email" required
+            class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gray-400 transition" />
+        </div>
+      </div>
+      <div>
+        <label for="website" class="block text-sm font-medium mb-2">Votre site web</label>
+        <input type="url" id="website" name="website" placeholder="https://"
+          class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gray-400 transition" />
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium mb-2">Votre besoin</label>
+        <textarea id="message" name="message" rows="5" required
+          class="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:border-gray-400 transition resize-none"
+          placeholder="Décrivez votre situation actuelle et ce que vous aimeriez améliorer..."></textarea>
+      </div>
+      <button type="submit"
+        class="bg-emerald-500 text-white px-8 py-3 rounded-lg hover:bg-emerald-600 transition font-medium">
+        Envoyer
+      </button>
+    </form>
+  </section>
+</Base>

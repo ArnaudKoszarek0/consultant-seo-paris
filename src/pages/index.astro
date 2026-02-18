@@ -1,0 +1,377 @@
+---
+import Base from '../layouts/Base.astro';
+
+const title = 'Consultant SEO Paris - Arnaud Koszarek | 20 ans d\'expérience';
+const description = 'Consultant SEO à Paris depuis 20 ans. Plus de 300 audits réalisés pour 200+ clients (Afflelou, Décathlon, LEGO, Nestlé, Pfizer). Audit technique, stratégie de contenu, netlinking et GEO.';
+
+const services = [
+  { title: 'Audit SEO', href: '/audit-seo', desc: 'Analyse complète de votre site : technique, contenu, backlinks, logs serveur. Un diagnostic qui identifie précisément ce qui bloque votre visibilité et un plan d\'action priorisé par impact.', icon: '🔍' },
+  { title: 'Stratégie de contenu', href: '/strategie-contenu', desc: 'Recherche de mots-clés, planning éditorial, rédaction optimisée. Des contenus qui se positionnent sur Google et qui convertissent vos visiteurs en clients. Pas du remplissage.', icon: '✍️' },
+  { title: 'Netlinking', href: '/netlinking', desc: 'Construction de liens de qualité, thématisés et progressifs. Chaque backlink est sélectionné pour sa pertinence et son autorité réelle. Trust Flow > volume.', icon: '🔗' },
+  { title: 'SEO Technique', href: '/seo-technique', desc: 'Performance, Core Web Vitals, crawl budget, indexation, données structurées. Le socle technique sans lequel aucune stratégie de contenu ne peut fonctionner.', icon: '⚙️' },
+  { title: 'SEO Local', href: '/seo-local', desc: 'Google Business Profile, citations locales, avis clients, contenu géolocalisé. 46% des recherches Google ont une intention locale. Soyez visible la ou vos clients vous cherchent.', icon: '📍' },
+  { title: 'GEO', href: '/geo', desc: 'Generative Engine Optimization. Être visible dans les réponses des IA : ChatGPT, Gemini, Perplexity. Le nouveau terrain de visibilité que vos concurrents ignorent encore.', icon: '🤖' },
+];
+
+const caseStudies = [
+  {
+    name: 'Site de locations vacances',
+    sector: 'locations-vue-turquoise.com',
+    metrics: [
+      { label: 'Positions Top 1', before: '46', after: '146' },
+      { label: 'Positions Top 3', before: '153', after: '523' },
+      { label: 'Positions Top 10', before: '467', after: '1 616' },
+    ]
+  },
+  {
+    name: 'Réseau d\'opticiens en France',
+    sector: 'Afflelou',
+    metrics: [
+      { label: 'Positions Top 3', before: '1 741', after: '2 988' },
+      { label: 'Positions Top 10', before: '3 723', after: '5 929' },
+      { label: '"Lunettes de soleil"', before: '---', after: 'N°1' },
+    ]
+  }
+];
+
+const steps = [
+  { num: '01', title: 'Audit complet', desc: 'J\'analyse votre site sous tous les angles : technique, contenu, backlinks, concurrence, logs serveur. Pas de template générique, un vrai diagnostic adapté a votre situation. Vous savez exactement ou vous en êtes et pourquoi.' },
+  { num: '02', title: 'Stratégie sur mesure', desc: 'On définit ensemble les priorités en fonction de vos objectifs business. Quick wins d\'abord pour des résultats rapides, puis fondations solides pour une croissance durable. Chaque action est justifiée par des données.' },
+  { num: '03', title: 'Exécution et suivi', desc: 'Je ne me contente pas de recommander, je fais le travail. Optimisations techniques, production de contenu, acquisition de liens, monitoring des positions. Vous suivez l\'avancement en temps réel via un espace dédié.' },
+  { num: '04', title: 'Résultats mesurables', desc: 'Reporting mensuel transparent avec les métriques qui comptent : positions, trafic organique, conversions. Pas de vanity metrics, des chiffres qui reflètent l\'impact réel sur votre business.' },
+];
+
+const faqs = [
+  {
+    q: 'Qu\'est-ce qu\'un consultant SEO ?',
+    a: 'Un consultant SEO est un expert en référencement naturel qui aide les entreprises a améliorer leur visibilité sur Google. Son travail couvre l\'audit technique du site, l\'optimisation du contenu, la construction de liens (netlinking) et le suivi des performances. L\'objectif : générer du trafic qualifié qui se transforme en clients, de manière durable et sans dépendre de la publicité payante.'
+  },
+  {
+    q: 'Pourquoi faire appel a un consultant SEO a Paris ?',
+    a: 'Le marché parisien est concurrentiel. Un consultant SEO basé a Paris comprend les spécificités du marché français, les habitudes de recherche locales et les enjeux de visibilité propres a chaque secteur. Travailler avec un consultant indépendant plutôt qu\'une agence vous garantit un interlocuteur unique, impliqué personnellement dans vos résultats.'
+  },
+  {
+    q: 'Combien de temps faut-il pour voir des résultats en SEO ?',
+    a: 'Le SEO est un investissement a moyen terme. Les premiers résultats apparaissent généralement entre 3 et 6 mois, selon la concurrence de votre secteur et l\'état initial de votre site. Certains quick wins (corrections techniques, optimisation de pages existantes) peuvent produire des effets en quelques semaines. La vraie force du SEO, c\'est qu\'une fois les positions acquises, elles travaillent pour vous 24h/24.'
+  },
+  {
+    q: 'Quelle est la différence entre SEO et SEA ?',
+    a: 'Le SEA (Google Ads) vous donne de la visibilité immédiate mais s\'arrête dès que vous cessez de payer. Le SEO construit une visibilité organique durable : vous apparaissez dans les résultats naturels de Google sans payer au clic. Les deux approches sont complémentaires, mais le SEO offre un meilleur retour sur investissement a long terme.'
+  },
+  {
+    q: 'Qu\'est-ce que le GEO (Generative Engine Optimization) ?',
+    a: 'Le GEO est l\'optimisation pour les moteurs de recherche génératifs : ChatGPT, Gemini, Perplexity, Copilot. Ces outils IA répondent directement aux questions des utilisateurs en citant des sources. Le GEO consiste a structurer votre contenu pour qu\'il soit cité dans ces réponses. C\'est un nouveau levier de visibilité que la plupart des entreprises ignorent encore.'
+  },
+  {
+    q: 'Comment se déroule un audit SEO ?',
+    a: 'L\'audit commence par un crawl complet de votre site pour identifier les problèmes techniques. J\'analyse ensuite votre contenu (couverture sémantique, cannibalisation, maillage interne), votre profil de backlinks (Trust Flow, domaines référents, ancres) et vos logs serveur pour voir ce que Google crawle réellement. Le livrable est un document structuré ou chaque constat est accompagné d\'une action concrète, priorisée par impact.'
+  },
+];
+---
+
+<Base title={title} description={description}>
+
+  <!-- Hero -->
+  <section class="max-w-6xl mx-auto px-6 pt-16 pb-20">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-gray-900 font-medium mb-3">Consultant SEO à Paris</h1>
+        <p class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          Votre visibilité sur Google,<br/><span class="text-emerald-500">c'est mon métier</span>
+        </p>
+        <p class="text-lg text-gray-600 mb-4 leading-relaxed">
+          Je suis Arnaud Koszarek, <strong>consultant SEO depuis 20 ans</strong>. J'accompagne les entreprises
+          de toutes tailles pour améliorer leur positionnement sur Google, générer du <strong>trafic qualifié</strong>
+          et transformer cette visibilité en chiffre d'affaires.
+        </p>
+        <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+          Mon approche est simple : <strong>un diagnostic précis</strong>, une stratégie claire et des <strong>résultats mesurables</strong>.
+          Pas de jargon inutile, pas de promesses en l'air. Des données, des actions, des résultats.
+        </p>
+        <div class="flex flex-wrap gap-4 mb-10">
+          <a href="/contact" class="bg-emerald-500 text-white px-7 py-3 rounded-lg hover:bg-emerald-600 transition font-medium">
+            Demander un audit gratuit
+          </a>
+          <a href="#cas-clients" class="border border-emerald-400 text-emerald-600 px-7 py-3 rounded-lg hover:bg-emerald-50 transition font-medium">
+            Voir les résultats
+          </a>
+        </div>
+        <div class="flex gap-8 text-sm text-gray-500">
+          <div><span class="text-2xl font-bold text-emerald-600 block">300+</span> audits réalisés</div>
+          <div><span class="text-2xl font-bold text-emerald-600 block">200+</span> clients</div>
+          <div><span class="text-2xl font-bold text-emerald-600 block">20</span> ans d'expérience</div>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img
+          src="/images/arnaud-koszarek.jpg"
+          alt="Arnaud Koszarek - Consultant SEO Paris"
+          class="w-80 h-80 object-cover rounded-2xl shadow-lg"
+          loading="eager"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Références -->
+  <section class="border-y border-gray-100 py-10 overflow-hidden">
+    <div class="max-w-6xl mx-auto px-6">
+      <p class="text-center text-sm text-gray-400 uppercase tracking-wider mb-8">Ils m'ont fait confiance</p>
+      <div class="flex justify-center items-center gap-10 flex-wrap">
+        {[
+          { name: 'Décathlon', file: 'decathlon' },
+          { name: 'LEGO', file: 'lego' },
+          { name: 'Afflelou', file: 'afflelou' },
+          { name: 'Pfizer', file: 'pfizer' },
+          { name: 'Blédina', file: 'bledina' },
+          { name: 'Nestlé', file: 'nestle' },
+          { name: 'Kärcher', file: 'karcher' },
+          { name: 'Brandt', file: 'brandt' },
+          { name: 'Partouche', file: 'partouche' },
+        ].map(brand => (
+          <div class="flex items-center justify-center h-12 px-2 grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transition duration-300">
+            <img
+              src={`/images/logos/${brand.file}.svg`}
+              alt={brand.name}
+              class="h-10 w-auto object-contain"
+              loading="lazy"
+              onerror={`this.style.display='none';this.nextElementSibling.style.display='block'`}
+            />
+            <span class="hidden text-lg font-semibold text-gray-300">{brand.name}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Pourquoi le SEO -->
+  <section class="bg-emerald-50 py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">Pourquoi investir dans le SEO ?</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            <strong>93% des expériences en ligne</strong> commencent par un moteur de recherche. Si votre site n'apparait pas
+            dans les premiers résultats de Google, vous laissez vos concurrents capter vos clients potentiels.
+          </p>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Contrairement a la publicité payante (Google Ads), le <strong>référencement naturel</strong> construit
+            une <strong>visibilité durable</strong>. Une page bien positionnée génère du trafic qualifié pendant des mois,
+            voire des années, <strong>sans coût au clic</strong>.
+          </p>
+        </div>
+        <div>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Le SEO, c'est aussi un avantage concurrentiel. Dans la plupart des secteurs, les entreprises
+            qui investissent sérieusement dans leur référencement naturel captent une part disproportionnée
+            du marché en ligne.
+          </p>
+          <p class="text-gray-700 leading-relaxed">
+            Mais le SEO ne s'improvise pas. Un site mal optimisé, un contenu qui ne répond pas aux bonnes
+            intentions de recherche, un profil de liens faible : autant de <strong>freins invisibles</strong> qui plombent
+            votre visibilité sans que vous le sachiez. <strong>C'est la que j'interviens.</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-2xl md:text-3xl font-bold mb-4 text-center">Mes prestations SEO</h2>
+    <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+      Un accompagnement complet pour améliorer votre visibilité sur Google.
+      Chaque prestation est adaptée a votre secteur, votre budget et vos objectifs.
+    </p>
+    <div class="grid md:grid-cols-3 gap-6">
+      {services.map(s => (
+        <a href={s.href} class="group p-6 rounded-xl border border-gray-100 hover:border-emerald-300 hover:shadow-md transition">
+          <span class="text-2xl mb-3 block">{s.icon}</span>
+          <h3 class="font-bold text-lg mb-2 group-hover:text-emerald-600">{s.title}</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">{s.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Méthode -->
+  <section class="bg-emerald-50 py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4 text-center">Comment je travaille</h2>
+      <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+        Une méthode éprouvée sur plus de 200 clients. Pas de recette magique,
+        de la rigueur, de la data et un suivi permanent.
+      </p>
+      <div class="space-y-8">
+        {steps.map(step => (
+          <div class="flex gap-6 items-start">
+            <span class="text-3xl font-bold text-emerald-200 shrink-0">{step.num}</span>
+            <div>
+              <h3 class="font-bold text-lg mb-2">{step.title}</h3>
+              <p class="text-gray-600 leading-relaxed">{step.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Études de cas -->
+  <section id="cas-clients" class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-2xl md:text-3xl font-bold mb-4 text-center">Des résultats concrets</h2>
+    <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+      Je ne montre pas des courbes sans contexte. Voici des missions réelles,
+      avec les chiffres avant/après. C'est la meilleure preuve de ce que le SEO peut faire.
+    </p>
+    <div class="grid md:grid-cols-2 gap-8">
+      {caseStudies.map(cs => (
+        <div class="border border-gray-100 rounded-xl p-8">
+          <p class="text-sm text-gray-500 mb-1">{cs.sector}</p>
+          <h3 class="font-bold text-xl mb-6">{cs.name}</h3>
+          <div class="space-y-4">
+            {cs.metrics.map(m => (
+              <div class="flex justify-between items-center text-sm">
+                <span class="text-gray-600">{m.label}</span>
+                <div class="flex items-center gap-3">
+                  <span class="text-gray-400">{m.before}</span>
+                  <span class="text-gray-300">→</span>
+                  <span class="font-bold text-emerald-600">{m.after}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Différenciation -->
+  <section class="bg-emerald-50 py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">Pourquoi travailler avec moi ?</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <div>
+          <h3 class="font-bold text-lg mb-3">20 ans d'expérience terrain</h3>
+          <p class="text-gray-700 leading-relaxed mb-6">
+            J'ai commencé le SEO en <strong>2006</strong>, bien avant que ça devienne un buzzword. J'ai traversé
+            toutes les mises a jour de Google, du <strong>Panda au Helpful Content Update</strong>. Cette expérience
+            me permet de distinguer les tendances durables des modes passagères.
+          </p>
+
+          <h3 class="font-bold text-lg mb-3">Des références qui parlent</h3>
+          <p class="text-gray-700 leading-relaxed">
+            <strong>Décathlon, LEGO, Afflelou, Pfizer, Nestlé, Kärcher, Partouche</strong>... J'ai travaillé avec
+            des marques de toutes tailles et de tous secteurs. Chaque mission m'a apporté une expertise
+            sectorielle que je mets au service de vos projets.
+          </p>
+        </div>
+        <div>
+          <h3 class="font-bold text-lg mb-3">L'IA comme avantage compétitif</h3>
+          <p class="text-gray-700 leading-relaxed mb-6">
+            J'utilise l'<strong>intelligence artificielle</strong> pour analyser plus vite, monitorer en continu
+            et produire du contenu de qualité. Mais <strong>chaque décision stratégique reste humaine</strong>.
+            L'IA me rend plus efficace, pas plus paresseux. C'est un avantage que la plupart
+            des consultants n'exploitent pas encore.
+          </p>
+
+          <h3 class="font-bold text-lg mb-3">Un interlocuteur unique</h3>
+          <p class="text-gray-700 leading-relaxed">
+            <strong>Pas d'agence, pas de sous-traitance</strong>, pas de junior qui fait le travail a ma place.
+            Quand vous travaillez avec moi, c'est moi qui fais l'audit, moi qui définis la stratégie,
+            moi qui exécute. Vous avez un seul interlocuteur qui connait votre dossier par coeur.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Qu'est-ce qu'un consultant SEO -->
+  <section class="max-w-4xl mx-auto px-6 py-20">
+    <h2 class="text-2xl md:text-3xl font-bold mb-8">Qu'est-ce qu'un consultant SEO ?</h2>
+    <div class="space-y-4 text-gray-700 leading-relaxed">
+      <p>
+        Un <strong>consultant SEO</strong> (Search Engine Optimization) est un expert en <strong>référencement naturel</strong>
+        dont le rôle est d'améliorer la visibilité d'un site web sur les moteurs de recherche,
+        principalement Google. Son objectif : faire remonter vos pages dans les résultats de recherche
+        pour les <strong>mots-clés stratégiques</strong> de votre activité.
+      </p>
+      <p>
+        Concrètement, le travail d'un consultant SEO se décompose en plusieurs axes.
+        L'<strong>audit technique</strong> vérifie que votre site est correctement crawlé et indexé par Google :
+        vitesse de chargement, architecture, balises, données structurées, erreurs de crawl.
+        L'<strong>optimisation du contenu</strong> s'assure que vos pages répondent aux intentions de recherche
+        de vos cibles et couvrent les bons champs sémantiques.
+        Le <strong>netlinking</strong> construit l'autorité de votre domaine via des liens entrants
+        de qualité provenant de sites pertinents.
+      </p>
+      <p>
+        Un bon consultant SEO ne se contente pas d'appliquer des recettes. Il analyse votre marché,
+        étudie vos concurrents, identifie les opportunités et construit une stratégie adaptée
+        a votre situation spécifique. Chaque site est différent, chaque secteur a ses particularités.
+      </p>
+      <p>
+        La valeur d'un consultant SEO se mesure a ses résultats : <strong>positions gagnées</strong>, <strong>trafic organique</strong>
+        généré, et surtout, <strong>impact sur votre chiffre d'affaires</strong>. Le SEO n'est pas une dépense,
+        c'est un investissement dont le retour se mesure en leads, en ventes et en parts de marché.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="bg-emerald-50 py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-2xl md:text-3xl font-bold mb-12 text-center">Questions fréquentes</h2>
+      <div class="space-y-6">
+        {faqs.map(faq => (
+          <details class="bg-white rounded-xl p-6 group">
+            <summary class="font-bold text-lg cursor-pointer list-none flex justify-between items-center">
+              {faq.q}
+              <span class="text-emerald-500 text-2xl group-open:rotate-45 transition-transform">+</span>
+            </summary>
+            <p class="text-gray-600 leading-relaxed mt-4">{faq.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Derniers articles -->
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <h2 class="text-2xl md:text-3xl font-bold mb-4 text-center">Derniers articles</h2>
+    <p class="text-gray-600 text-center mb-12">Analyses techniques, retours d'expérience et méthodes SEO.</p>
+    <div class="text-center">
+      <a href="/blog" class="border border-emerald-400 text-emerald-600 px-7 py-3 rounded-lg hover:bg-emerald-50 transition font-medium">
+        Voir tous les articles
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA final -->
+  <section class="bg-gray-900 py-20">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4 text-white">Prêt a améliorer votre visibilité ?</h2>
+      <p class="text-gray-400 mb-8 text-lg">
+        Premier échange gratuit et sans engagement. Je regarde votre site,
+        je vous dis ce que je vois et ce qu'on peut faire. Clairement.
+      </p>
+      <a href="/contact" class="inline-block bg-emerald-500 text-white px-8 py-4 rounded-lg hover:bg-emerald-600 transition font-medium text-lg">
+        Prendre contact
+      </a>
+    </div>
+  </section>
+
+  <!-- Schema.org FAQ -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(f => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": f.a
+      }
+    }))
+  })} />
+
+</Base>

@@ -1,0 +1,145 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="SEO Technique Paris - Arnaud Koszarek | Performance et indexation"
+  description="SEO technique : Core Web Vitals, crawl budget, indexation, données structurées, migration. Les fondations techniques d'un bon référencement."
+>
+  <section class="max-w-4xl mx-auto px-6 py-16">
+    <img src="/images/illustration-technique.png" alt="Illustration SEO technique - performance web" class="w-full max-w-2xl mx-auto rounded-xl mb-10" loading="eager" />
+    <h1 class="text-3xl md:text-4xl font-bold mb-6">SEO Technique</h1>
+    <p class="text-lg text-gray-600 mb-10 leading-relaxed">
+      Le SEO technique, c'est la plomberie de votre site. Invisible quand ça marche,
+      catastrophique quand ça ne marche pas. Vous pouvez avoir le meilleur contenu du monde,
+      si Google ne peut pas le lire correctement, il ne le positionnera pas.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-4 mt-12">Performance et Core Web Vitals</h2>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Depuis 2021, Google intègre les Core Web Vitals comme facteur de positionnement.
+      Trois métriques comptent : le LCP (Largest Contentful Paint, le temps d'affichage
+      de l'élément principal), le FID/INP (le temps de réaction a la première interaction)
+      et le CLS (la stabilité visuelle de la page pendant le chargement).
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      En pratique, ça se traduit par des choses concrètes. Une image de hero non optimisée
+      qui met 3 secondes a se charger, c'est un LCP rouge. Un script JavaScript qui bloque
+      le rendu pendant 500ms, c'est un FID en alerte. Une pub qui se charge en retard
+      et pousse le contenu vers le bas, c'est un CLS hors norme.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Je teste chaque page de votre site avec les données terrain de Chrome User Experience Report
+      (les vrais utilisateurs, pas les tests labo). Quand un problème est identifié,
+      je le corrige ou je rédige les spécifications techniques pour votre développeur.
+      Compression d'images, lazy loading, minification du CSS et JS, mise en cache,
+      choix du bon format d'image (WebP, AVIF) : chaque milliseconde compte.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-4 mt-12">Crawl et indexation</h2>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Google ne crawle pas tout votre site a chaque passage. Il a un budget de crawl limité
+      pour chaque domaine, et il le répartit selon ses propres critères. Si une grande partie
+      de ce budget est gaspillée sur des pages inutiles (paramètres d'URL, pages de pagination,
+      filtres a facettes, versions dupliquées), vos pages importantes sont moins souvent crawlées
+      et donc moins souvent mises a jour dans l'index.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Sur un site e-commerce que j'ai audité récemment, 66% du crawl budget partait sur des pages
+      de filtres qui n'avaient aucune valeur SEO. En bloquant ces pages dans le robots.txt
+      et en ajoutant les bonnes directives noindex, le crawl des pages produits a augmenté de 40%
+      en deux semaines. Résultat : les nouvelles fiches produits étaient indexées en 24h
+      au lieu de 10 jours.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      L'analyse des logs serveur est le seul moyen fiable de voir ce que Googlebot fait sur votre site.
+      Google Search Console montre une version filtrée de la réalité. Les logs montrent tout :
+      quelles pages sont crawlées, a quelle fréquence, quels codes de réponse sont renvoyés,
+      combien de bande passante est consommée par les bots.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-4 mt-12">Architecture du site</h2>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      La structure de votre site détermine comment les utilisateurs et Google naviguent
+      dans votre contenu. Une bonne architecture respecte la règle des 3 clics :
+      n'importe quelle page importante doit être accessible en 3 clics maximum
+      depuis la page d'accueil.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Ca passe par une arborescence logique, des URLs propres et descriptives, un fil d'Ariane
+      (breadcrumb) cohérent, une navigation principale qui reflète vos pages stratégiques.
+      Si Google doit traverser 7 niveaux de profondeur pour atteindre une page,
+      il considère que cette page n'est pas importante. Et il a raison.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-4 mt-12">Données structurées</h2>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Les données structurées (schema.org en JSON-LD) permettent de dire a Google exactement
+      ce que contient votre page. Un article, un produit, un service, une FAQ, un événement,
+      une recette, un avis. Google utilise ces informations pour afficher les rich snippets
+      dans les résultats de recherche : étoiles, prix, FAQ dépliables, images.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      A position égale, un résultat avec rich snippet attire plus de clics. C'est mécanique.
+      Un résultat classique a un taux de clic moyen de 3% en position 5.
+      Avec un rich snippet FAQ, ce taux peut monter a 8%. C'est du trafic gratuit en plus,
+      sans gagner une seule position.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      J'implémente les données structurées adaptées a votre activité et je vérifie
+      qu'elles sont correctement lues par Google via le Rich Results Test.
+      Pas de balisage inutile, uniquement ce qui a un impact réel sur votre visibilité.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-4 mt-12">Sécurité et HTTPS</h2>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Le HTTPS est un signal de positionnement depuis 2014. Mais au-dela du certificat SSL,
+      la sécurité du site compte : redirections HTTP vers HTTPS sans chaîne de redirection,
+      headers de sécurité (HSTS, CSP), pas de contenu mixte.
+      Un site qui affiche des avertissements de sécurité dans Chrome perd la confiance
+      des visiteurs avant même qu'ils aient lu votre contenu.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-4 mt-12">Migration et refonte</h2>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Une migration mal gérée, c'est le meilleur moyen de perdre 50% de son trafic
+      en une semaine. Changement de CMS, changement de domaine, refonte de l'arborescence :
+      chaque scénario a ses pièges.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Le plan de redirection est la pièce maitresse. Chaque ancienne URL doit pointer
+      vers la bonne nouvelle URL en 301. Pas de redirections en chaîne, pas de pages
+      qui tombent en 404, pas de perte de maillage interne. Je prépare le mapping complet
+      avant la migration, je supervise le jour J, et je suis les métriques pendant les semaines
+      qui suivent pour détecter et corriger tout problème.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      J'ai accompagné plusieurs migrations sans perte de trafic. C'est possible a condition
+      de préparer sérieusement et de ne rien laisser au hasard.
+    </p>
+
+    <h2 class="text-2xl font-bold mb-4 mt-12">Internationalisation et hreflang</h2>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Si votre site cible plusieurs pays ou plusieurs langues, les balises hreflang
+      indiquent a Google quelle version servir a quel utilisateur. Mal configurées,
+      elles créent de la confusion : Google montre la version française a un utilisateur allemand,
+      ou considère vos versions linguistiques comme du contenu dupliqué.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-4">
+      J'audite et corrige l'implémentation hreflang (balises HTML, sitemap ou headers HTTP)
+      pour que chaque version linguistique soit correctement indexée et positionnée
+      dans le bon pays.
+    </p>
+
+    <div class="mt-12 p-8 bg-emerald-50 rounded-xl">
+      <h2 class="text-xl font-bold mb-3">Des problèmes techniques freinent votre SEO ?</h2>
+      <p class="text-gray-600 leading-relaxed mb-4">
+        On regarde ensemble les fondations de votre site. Souvent, quelques corrections techniques
+        suffisent a débloquer du trafic que le contenu seul ne peut pas apporter.
+      </p>
+      <a href="/contact" class="inline-block bg-emerald-500 text-white px-6 py-3 rounded-lg hover:bg-emerald-600 transition font-medium">
+        Optimiser votre site
+      </a>
+    </div>
+  </section>
+</Base>
