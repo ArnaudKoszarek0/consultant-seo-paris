@@ -9,6 +9,8 @@ tags: ["seo", "zero-click", "strategie-seo"]
 
 Alors oui, le SEO organique classique perd du terrain. Mais non, ce n'est pas la fin. C'est un changement de modèle.
 
+![Illustration conceptuelle des recherches zero-click sur Google](/images/blog/zero-click-hero.png)
+
 ## Le problème des zero-click en chiffres
 
 Google traite environ 14 milliards de requêtes par jour. Si 69% ne produisent aucun clic sortant, ça représente près de 10 milliards de recherches quotidiennes qui restent dans l'écosystème Google. L'utilisateur obtient sa réponse directement dans la SERP, via un featured snippet, un knowledge panel, ou maintenant un AI Overview.
@@ -24,6 +26,8 @@ En parallèle, des alternatives grignotent des parts. ChatGPT traite 37,5 millio
 Reddit est devenu un cas intéressant. Google favorise de plus en plus les résultats Reddit dans ses SERP. Les discussions authentiques, les retours d'expérience bruts, les avis non filtrés : Google semble considérer que c'est exactement le type de contenu "human-first" qu'il veut mettre en avant.
 
 Si votre marque n'est pas présente sur Reddit dans votre niche, c'est peut-être le moment d'y réfléchir. Pas pour spammer. Pour participer aux conversations avec de la vraie expertise.
+
+![Evolution de la recherche Google : des liens organiques vers les réponses IA](/images/blog/zero-click-evolution.png)
 
 ## Trois stratégies pour sortir de la dépendance Google
 
