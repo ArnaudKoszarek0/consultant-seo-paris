@@ -1,10 +1,7 @@
 export default {
   async fetch(request, env) {
-    // CORS preflight
     if (request.method === 'OPTIONS') {
-      return new Response(null, {
-        headers: corsHeaders(env.ALLOWED_ORIGIN),
-      });
+      return new Response(null, { headers: corsHeaders(env.ALLOWED_ORIGIN) });
     }
 
     if (request.method !== 'POST') {
@@ -15,48 +12,39 @@ export default {
       const data = await request.json();
       const { name, email, website, message } = data;
 
-      // Validation
       if (!name || !email || !message) {
         return jsonResponse({ error: 'Champs requis manquants' }, 400, env.ALLOWED_ORIGIN);
       }
 
-      if (!isValidEmail(email)) {
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
         return jsonResponse({ error: 'Email invalide' }, 400, env.ALLOWED_ORIGIN);
       }
 
-      // Rate limiting basique via CF
       const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
+      const timestamp = new Date().toISOString();
 
-      // Envoi email via MailChannels
-      const emailResponse = await fetch('https://api.mailchannels.net/tx/v1/send', {
+      // Send to Telegram
+      const telegramText = `📩 Nouveau contact consultant-seo.paris\n\n` +
+        `Nom : ${name}\n` +
+        `Email : ${email}\n` +
+        `Site : ${website || 'Non renseigné'}\n\n` +
+        `Message :\n${message}\n\n` +
+        `IP : ${ip}\nDate : ${timestamp}`;
+
+      const tgRes = await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          personalizations: [{
-            to: [{ email: env.TO_EMAIL, name: 'Arnaud Koszarek' }],
-          }],
-          from: {
-            email: 'contact@consultant-seo.paris',
-            name: 'Formulaire consultant-seo.paris',
-          },
-          reply_to: { email, name },
-          subject: `[Contact SEO] ${name} - ${website || 'pas de site'}`,
-          content: [{
-            type: 'text/plain',
-            value: `Nouveau contact depuis consultant-seo.paris\n\n` +
-              `Nom : ${name}\n` +
-              `Email : ${email}\n` +
-              `Site : ${website || 'Non renseigné'}\n\n` +
-              `Message :\n${message}\n\n` +
-              `---\nIP : ${ip}\nDate : ${new Date().toISOString()}`,
-          }],
+          chat_id: env.TELEGRAM_CHAT_ID,
+          text: telegramText,
+          parse_mode: 'HTML',
         }),
       });
 
-      if (!emailResponse.ok) {
-        const errText = await emailResponse.text();
-        console.error('MailChannels error:', errText);
-        return jsonResponse({ error: 'Erreur envoi email' }, 500, env.ALLOWED_ORIGIN);
+      if (!tgRes.ok) {
+        const err = await tgRes.text();
+        console.error('Telegram error:', err);
+        return jsonResponse({ error: 'Erreur envoi' }, 500, env.ALLOWED_ORIGIN);
       }
 
       return jsonResponse({ success: true, message: 'Message envoyé' }, 200, env.ALLOWED_ORIGIN);
@@ -67,10 +55,6 @@ export default {
     }
   },
 };
-
-function isValidEmail(email) {
-  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-}
 
 function corsHeaders(origin) {
   return {
