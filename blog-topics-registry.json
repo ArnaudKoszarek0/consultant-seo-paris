@@ -50,6 +50,11 @@
       "slug": "google-guerre-contenu-ia-autorite-topique",
       "themes": ["contenu IA thin", "autorité topique", "topical authority", "Core Update février 2026 impact contenu IA"],
       "keywords": ["contenu IA", "autorité topique", "topical authority", "thin content", "contenu générique"]
+    },
+    {
+      "slug": "link-building-mort-entity-mentions-2026",
+      "themes": ["link building mort", "entity mentions", "implied links", "netlinking 2026", "signaux de confiance"],
+      "keywords": ["link building", "entity mentions", "netlinking", "backlinks", "implied links", "digital PR"]
     }
   ],
   "excluded_angles": [
