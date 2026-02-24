@@ -55,6 +55,11 @@
       "slug": "link-building-mort-entity-mentions-2026",
       "themes": ["link building mort", "entity mentions", "implied links", "netlinking 2026", "signaux de confiance"],
       "keywords": ["link building", "entity mentions", "netlinking", "backlinks", "implied links", "digital PR"]
+    },
+    {
+      "slug": "proces-antitrust-google-impact-seo",
+      "themes": ["antitrust Google", "DOJ remèdes", "diversification moteurs", "SEO multi-moteurs", "Bing", "cession Chrome"],
+      "keywords": ["antitrust", "DOJ", "Chrome", "Bing", "diversification", "SEO multi-moteurs", "procès Google"]
     }
   ],
   "excluded_angles": [
