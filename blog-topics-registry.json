@@ -65,6 +65,11 @@
       "slug": "google-trends-gemini-ia-keyword-research",
       "themes": ["Google Trends", "Gemini intégration", "keyword research IA", "recherche de mots-clés"],
       "keywords": ["Google Trends", "Gemini", "keyword research", "suggestions sémantiques", "tendances"]
+    },
+    {
+      "slug": "cloudflare-markdown-ai-agents-seo",
+      "themes": ["Cloudflare Markdown AI Agents", "crawl IA", "bots IA", "Markdown conversion", "WebMCP", "Bing AI Performance"],
+      "keywords": ["Cloudflare", "Markdown", "AI Agents", "crawl IA", "tokens", "bots IA", "WebMCP"]
     }
   ],
   "excluded_angles": [
