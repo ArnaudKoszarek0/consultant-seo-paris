@@ -70,6 +70,11 @@
       "slug": "cloudflare-markdown-ai-agents-seo",
       "themes": ["Cloudflare Markdown AI Agents", "crawl IA", "bots IA", "Markdown conversion", "WebMCP", "Bing AI Performance"],
       "keywords": ["Cloudflare", "Markdown", "AI Agents", "crawl IA", "tokens", "bots IA", "WebMCP"]
+    },
+    {
+      "slug": "chatgpt-pubs-impact-seo-2026",
+      "themes": ["publicités ChatGPT", "OpenAI ads", "GEO et pub", "fragmentation acquisition", "chatbots IA canal marketing"],
+      "keywords": ["ChatGPT", "publicité", "OpenAI ads", "CPM", "GEO", "acquisition IA"]
     }
   ],
   "excluded_angles": [
