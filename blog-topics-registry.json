@@ -75,6 +75,11 @@
       "slug": "chatgpt-pubs-impact-seo-2026",
       "themes": ["publicités ChatGPT", "OpenAI ads", "GEO et pub", "fragmentation acquisition", "chatbots IA canal marketing"],
       "keywords": ["ChatGPT", "publicité", "OpenAI ads", "CPM", "GEO", "acquisition IA"]
+    },
+    {
+      "slug": "google-discover-geolocalisation-seo-international",
+      "themes": ["Discover géolocalisation", "SEO international", "contenu local Discover", "fragmentation géographique résultats"],
+      "keywords": ["Discover", "géolocalisation", "SEO international", "contenu local", "signaux géographiques"]
     }
   ],
   "excluded_angles": [
