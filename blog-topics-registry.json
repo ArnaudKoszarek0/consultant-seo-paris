@@ -80,6 +80,11 @@
       "slug": "google-discover-geolocalisation-seo-international",
       "themes": ["Discover géolocalisation", "SEO international", "contenu local Discover", "fragmentation géographique résultats"],
       "keywords": ["Discover", "géolocalisation", "SEO international", "contenu local", "signaux géographiques"]
+    },
+    {
+      "slug": "bing-ai-performance-report-geo-mesurable",
+      "themes": ["Bing AI Performance report", "GEO mesurable", "Bing Webmaster Tools", "citations IA", "multi-turn search Bing"],
+      "keywords": ["Bing", "AI Performance", "GEO", "Copilot", "grounding queries", "citations IA", "multi-turn search"]
     }
   ],
   "excluded_angles": [
