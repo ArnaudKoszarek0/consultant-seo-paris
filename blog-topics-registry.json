@@ -3,88 +3,294 @@
   "articles": [
     {
       "slug": "pourquoi-votre-site-ne-se-positionne-pas",
-      "themes": ["diagnostic SEO", "erreurs courantes", "positionnement Google"],
-      "keywords": ["positionnement", "erreurs SEO", "diagnostic"]
+      "themes": [
+        "diagnostic SEO",
+        "erreurs courantes",
+        "positionnement Google"
+      ],
+      "keywords": [
+        "positionnement",
+        "erreurs SEO",
+        "diagnostic"
+      ]
     },
     {
       "slug": "zero-click-search-69-pourcent-strategies",
-      "themes": ["zero-click searches", "AI Overviews impact", "stratégies alternatives trafic"],
-      "keywords": ["zero-click", "69%", "recherches sans clic", "audiences propriétaires"]
+      "themes": [
+        "zero-click searches",
+        "AI Overviews impact",
+        "stratégies alternatives trafic"
+      ],
+      "keywords": [
+        "zero-click",
+        "69%",
+        "recherches sans clic",
+        "audiences propriétaires"
+      ]
     },
     {
       "slug": "ai-overviews-ai-mode-serp-2026",
-      "themes": ["AI Overviews", "AI Mode Google", "transformation SERP", "SGE"],
-      "keywords": ["AI Overviews", "AI Mode", "SERP 2026", "SGE"]
+      "themes": [
+        "AI Overviews",
+        "AI Mode Google",
+        "transformation SERP",
+        "SGE"
+      ],
+      "keywords": [
+        "AI Overviews",
+        "AI Mode",
+        "SERP 2026",
+        "SGE"
+      ]
     },
     {
       "slug": "brand-seo-autorite-marque-2026",
-      "themes": ["SEO de marque", "brand authority", "E-E-A-T", "signaux de marque"],
-      "keywords": ["marque", "autorité", "brand SEO", "backlinks vs marque"]
+      "themes": [
+        "SEO de marque",
+        "brand authority",
+        "E-E-A-T",
+        "signaux de marque"
+      ],
+      "keywords": [
+        "marque",
+        "autorité",
+        "brand SEO",
+        "backlinks vs marque"
+      ]
     },
     {
       "slug": "geo-generative-engine-optimization-guide",
-      "themes": ["GEO", "optimisation pour IA", "ChatGPT SEO", "Perplexity"],
-      "keywords": ["GEO", "Generative Engine Optimization", "IA générative"]
+      "themes": [
+        "GEO",
+        "optimisation pour IA",
+        "ChatGPT SEO",
+        "Perplexity"
+      ],
+      "keywords": [
+        "GEO",
+        "Generative Engine Optimization",
+        "IA générative"
+      ]
     },
     {
       "slug": "google-discover-core-update-fevrier-2026",
-      "themes": ["Google Discover", "Core Update février 2026", "volatilité SERP", "E-E-A-T"],
-      "keywords": ["Discover", "Core Update", "février 2026", "clickbait"]
+      "themes": [
+        "Google Discover",
+        "Core Update février 2026",
+        "volatilité SERP",
+        "E-E-A-T"
+      ],
+      "keywords": [
+        "Discover",
+        "Core Update",
+        "février 2026",
+        "clickbait"
+      ]
     },
     {
       "slug": "search-console-ia-configuration-automatique",
-      "themes": ["Search Console", "IA intégrée", "configuration automatique"],
-      "keywords": ["Search Console", "IA", "configuration", "langage naturel"]
+      "themes": [
+        "Search Console",
+        "IA intégrée",
+        "configuration automatique"
+      ],
+      "keywords": [
+        "Search Console",
+        "IA",
+        "configuration",
+        "langage naturel"
+      ]
     },
     {
       "slug": "volatilite-rankings-google-fevrier-2026",
-      "themes": ["volatilité rankings", "Google février 2026", "gagnants perdants"],
-      "keywords": ["volatilité", "rankings", "février 2026", "fluctuations"]
+      "themes": [
+        "volatilité rankings",
+        "Google février 2026",
+        "gagnants perdants"
+      ],
+      "keywords": [
+        "volatilité",
+        "rankings",
+        "février 2026",
+        "fluctuations"
+      ]
     },
     {
       "slug": "google-supprime-boutons-appel-seo-local-payant",
-      "themes": ["SEO local", "Google Business Profile", "monétisation local pack", "Gemini Maps", "boutons appel organiques"],
-      "keywords": ["SEO local", "Google Business Profile", "Google Maps", "boutons appel", "local pack payant"]
+      "themes": [
+        "SEO local",
+        "Google Business Profile",
+        "monétisation local pack",
+        "Gemini Maps",
+        "boutons appel organiques"
+      ],
+      "keywords": [
+        "SEO local",
+        "Google Business Profile",
+        "Google Maps",
+        "boutons appel",
+        "local pack payant"
+      ]
     },
     {
       "slug": "google-guerre-contenu-ia-autorite-topique",
-      "themes": ["contenu IA thin", "autorité topique", "topical authority", "Core Update février 2026 impact contenu IA"],
-      "keywords": ["contenu IA", "autorité topique", "topical authority", "thin content", "contenu générique"]
+      "themes": [
+        "contenu IA thin",
+        "autorité topique",
+        "topical authority",
+        "Core Update février 2026 impact contenu IA"
+      ],
+      "keywords": [
+        "contenu IA",
+        "autorité topique",
+        "topical authority",
+        "thin content",
+        "contenu générique"
+      ]
     },
     {
       "slug": "link-building-mort-entity-mentions-2026",
-      "themes": ["link building mort", "entity mentions", "implied links", "netlinking 2026", "signaux de confiance"],
-      "keywords": ["link building", "entity mentions", "netlinking", "backlinks", "implied links", "digital PR"]
+      "themes": [
+        "link building mort",
+        "entity mentions",
+        "implied links",
+        "netlinking 2026",
+        "signaux de confiance"
+      ],
+      "keywords": [
+        "link building",
+        "entity mentions",
+        "netlinking",
+        "backlinks",
+        "implied links",
+        "digital PR"
+      ]
     },
     {
       "slug": "proces-antitrust-google-impact-seo",
-      "themes": ["antitrust Google", "DOJ remèdes", "diversification moteurs", "SEO multi-moteurs", "Bing", "cession Chrome"],
-      "keywords": ["antitrust", "DOJ", "Chrome", "Bing", "diversification", "SEO multi-moteurs", "procès Google"]
+      "themes": [
+        "antitrust Google",
+        "DOJ remèdes",
+        "diversification moteurs",
+        "SEO multi-moteurs",
+        "Bing",
+        "cession Chrome"
+      ],
+      "keywords": [
+        "antitrust",
+        "DOJ",
+        "Chrome",
+        "Bing",
+        "diversification",
+        "SEO multi-moteurs",
+        "procès Google"
+      ]
     },
     {
       "slug": "google-trends-gemini-ia-keyword-research",
-      "themes": ["Google Trends", "Gemini intégration", "keyword research IA", "recherche de mots-clés"],
-      "keywords": ["Google Trends", "Gemini", "keyword research", "suggestions sémantiques", "tendances"]
+      "themes": [
+        "Google Trends",
+        "Gemini intégration",
+        "keyword research IA",
+        "recherche de mots-clés"
+      ],
+      "keywords": [
+        "Google Trends",
+        "Gemini",
+        "keyword research",
+        "suggestions sémantiques",
+        "tendances"
+      ]
     },
     {
       "slug": "cloudflare-markdown-ai-agents-seo",
-      "themes": ["Cloudflare Markdown AI Agents", "crawl IA", "bots IA", "Markdown conversion", "WebMCP", "Bing AI Performance"],
-      "keywords": ["Cloudflare", "Markdown", "AI Agents", "crawl IA", "tokens", "bots IA", "WebMCP"]
+      "themes": [
+        "Cloudflare Markdown AI Agents",
+        "crawl IA",
+        "bots IA",
+        "Markdown conversion",
+        "WebMCP",
+        "Bing AI Performance"
+      ],
+      "keywords": [
+        "Cloudflare",
+        "Markdown",
+        "AI Agents",
+        "crawl IA",
+        "tokens",
+        "bots IA",
+        "WebMCP"
+      ]
     },
     {
       "slug": "chatgpt-pubs-impact-seo-2026",
-      "themes": ["publicités ChatGPT", "OpenAI ads", "GEO et pub", "fragmentation acquisition", "chatbots IA canal marketing"],
-      "keywords": ["ChatGPT", "publicité", "OpenAI ads", "CPM", "GEO", "acquisition IA"]
+      "themes": [
+        "publicités ChatGPT",
+        "OpenAI ads",
+        "GEO et pub",
+        "fragmentation acquisition",
+        "chatbots IA canal marketing"
+      ],
+      "keywords": [
+        "ChatGPT",
+        "publicité",
+        "OpenAI ads",
+        "CPM",
+        "GEO",
+        "acquisition IA"
+      ]
     },
     {
       "slug": "google-discover-geolocalisation-seo-international",
-      "themes": ["Discover géolocalisation", "SEO international", "contenu local Discover", "fragmentation géographique résultats"],
-      "keywords": ["Discover", "géolocalisation", "SEO international", "contenu local", "signaux géographiques"]
+      "themes": [
+        "Discover géolocalisation",
+        "SEO international",
+        "contenu local Discover",
+        "fragmentation géographique résultats"
+      ],
+      "keywords": [
+        "Discover",
+        "géolocalisation",
+        "SEO international",
+        "contenu local",
+        "signaux géographiques"
+      ]
     },
     {
       "slug": "bing-ai-performance-report-geo-mesurable",
-      "themes": ["Bing AI Performance report", "GEO mesurable", "Bing Webmaster Tools", "citations IA", "multi-turn search Bing"],
-      "keywords": ["Bing", "AI Performance", "GEO", "Copilot", "grounding queries", "citations IA", "multi-turn search"]
+      "themes": [
+        "Bing AI Performance report",
+        "GEO mesurable",
+        "Bing Webmaster Tools",
+        "citations IA",
+        "multi-turn search Bing"
+      ],
+      "keywords": [
+        "Bing",
+        "AI Performance",
+        "GEO",
+        "Copilot",
+        "grounding queries",
+        "citations IA",
+        "multi-turn search"
+      ]
+    },
+    {
+      "slug": "google-core-update-mars-2026-acceleration",
+      "themes": [
+        "Core Update mars 2026",
+        "accélération core updates",
+        "rythme mises à jour Google",
+        "contenu IA vs qualité"
+      ],
+      "keywords": [
+        "Core Update",
+        "mars 2026",
+        "accélération",
+        "E-E-A-T",
+        "contenu IA",
+        "Search Console"
+      ]
     }
   ],
   "excluded_angles": [
