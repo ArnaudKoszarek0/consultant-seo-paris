@@ -307,6 +307,23 @@
         "pages générées IA",
         "remplacement SERP"
       ]
+    },
+    {
+      "slug": "google-discover-profil-editeur-revendication",
+      "themes": [
+        "Google Discover profils éditeurs",
+        "revendication profil Discover",
+        "Knowledge Graph entité",
+        "Publisher Center"
+      ],
+      "keywords": [
+        "Discover",
+        "profil éditeur",
+        "revendication",
+        "Knowledge Graph",
+        "MID entity",
+        "Publisher Center"
+      ]
     }
   ],
   "excluded_angles": [
