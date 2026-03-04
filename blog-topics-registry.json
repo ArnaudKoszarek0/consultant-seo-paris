@@ -324,6 +324,25 @@
         "MID entity",
         "Publisher Center"
       ]
+    },
+    {
+      "slug": "googlebot-limite-2mo-crawl-html-seo-technique",
+      "themes": [
+        "limites crawl Googlebot",
+        "taille fichier HTML",
+        "SEO technique",
+        "audit taille pages",
+        "troncature indexation"
+      ],
+      "keywords": [
+        "Googlebot",
+        "2 Mo",
+        "crawl limit",
+        "taille HTML",
+        "SEO technique",
+        "troncature",
+        "audit"
+      ]
     }
   ],
   "excluded_angles": [
