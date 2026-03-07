@@ -380,6 +380,24 @@
         "multi-moteurs",
         "article 6(11)"
       ]
+    },
+    {
+      "slug": "google-thumbnails-schema-og-image-search-discover",
+      "themes": [
+        "thumbnails Google Search Discover",
+        "schema.org primaryImageOfPage",
+        "og:image SEO",
+        "image SEO vignettes"
+      ],
+      "keywords": [
+        "thumbnails",
+        "schema.org",
+        "og:image",
+        "primaryImageOfPage",
+        "Google Discover",
+        "vignettes",
+        "1200px"
+      ]
     }
   ],
   "excluded_angles": [
