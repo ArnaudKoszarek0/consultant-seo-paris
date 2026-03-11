@@ -455,6 +455,26 @@
         "comparative",
         "synthèse"
       ]
+    },
+    {
+      "slug": "inp-core-web-vitals-ranking-2026",
+      "themes": [
+        "INP Interaction to Next Paint",
+        "Core Web Vitals ranking",
+        "performance technique SEO",
+        "audit INP",
+        "conversions et vitesse"
+      ],
+      "keywords": [
+        "INP",
+        "Core Web Vitals",
+        "200ms",
+        "ranking factor",
+        "performance",
+        "taux de conversion",
+        "LCP",
+        "CLS"
+      ]
     }
   ],
   "excluded_angles": [
