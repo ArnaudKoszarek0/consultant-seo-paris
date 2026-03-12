@@ -475,6 +475,25 @@
         "LCP",
         "CLS"
       ]
+    },
+    {
+      "slug": "gemini-canvas-ai-mode-workspace-recherche",
+      "themes": [
+        "Gemini Canvas",
+        "AI Mode workspace",
+        "recherche interactive Google",
+        "rétention utilisateur Google",
+        "Direct Offers AI Mode"
+      ],
+      "keywords": [
+        "Gemini Canvas",
+        "AI Mode",
+        "workspace",
+        "recherche interactive",
+        "Direct Offers",
+        "rétention",
+        "productivité Google"
+      ]
     }
   ],
   "excluded_angles": [
