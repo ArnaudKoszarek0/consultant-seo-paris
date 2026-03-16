@@ -552,6 +552,24 @@
         "Digital Markets Act",
         "contenu sponsorisé"
       ]
+    },
+    {
+      "slug": "google-re-scan-post-indexation-contenu-ia",
+      "themes": [
+        "re-évaluation post-indexation",
+        "détection contenu IA post-crawl",
+        "Core Update mars 2026 mécanisme",
+        "re-scan Google qualité"
+      ],
+      "keywords": [
+        "re-scan",
+        "post-indexation",
+        "détection IA",
+        "re-évaluation",
+        "Core Update mars 2026",
+        "E-E-A-T",
+        "contenu IA détection"
+      ]
     }
   ],
   "excluded_angles": [
