@@ -612,6 +612,26 @@
         "73%",
         "E-E-A-T credentials"
       ]
+    },
+    {
+      "slug": "index-bloat-crawl-budget-94-pourcent-pages-inutiles",
+      "themes": [
+        "index bloat",
+        "crawl budget",
+        "indexation sélective Google",
+        "pages zéro trafic",
+        "SEO technique audit"
+      ],
+      "keywords": [
+        "index bloat",
+        "crawl budget",
+        "94%",
+        "indexation sélective",
+        "robots.txt",
+        "sitemap",
+        "Search Console",
+        "pages inutiles"
+      ]
     }
   ],
   "excluded_angles": [
