@@ -11,12 +11,12 @@ const title = 'Consultant SEO Paris - Arnaud Koszarek | 20 ans d\'expérience';
 const description = 'Consultant SEO à Paris depuis 20 ans. Plus de 300 audits réalisés pour 200+ clients (Afflelou, Décathlon, LEGO, Nestlé, Pfizer). Audit technique, stratégie de contenu, netlinking et GEO.';
 
 const services = [
-  { title: 'Audit SEO', href: '/audit-seo', desc: 'Analyse complète de votre site : technique, contenu, backlinks, logs serveur. Un diagnostic qui identifie précisément ce qui bloque votre visibilité et un plan d\'action priorisé par impact.', icon: '🔍' },
-  { title: 'Stratégie de contenu', href: '/strategie-contenu', desc: 'Recherche de mots-clés, planning éditorial, rédaction optimisée. Des contenus qui se positionnent sur Google et qui convertissent vos visiteurs en clients. Pas du remplissage.', icon: '✍️' },
-  { title: 'Netlinking', href: '/netlinking', desc: 'Construction de liens de qualité, thématisés et progressifs. Chaque backlink est sélectionné pour sa pertinence et son autorité réelle. Trust Flow > volume.', icon: '🔗' },
-  { title: 'SEO Technique', href: '/seo-technique', desc: 'Performance, Core Web Vitals, crawl budget, indexation, données structurées. Le socle technique sans lequel aucune stratégie de contenu ne peut fonctionner.', icon: '⚙️' },
-  { title: 'SEO Local', href: '/seo-local', desc: 'Google Business Profile, citations locales, avis clients, contenu géolocalisé. 46% des recherches Google ont une intention locale. Soyez visible la ou vos clients vous cherchent.', icon: '📍' },
-  { title: 'GEO', href: '/geo', desc: 'Generative Engine Optimization. Être visible dans les réponses des IA : ChatGPT, Gemini, Perplexity. Le nouveau terrain de visibilité que vos concurrents ignorent encore.', icon: '🤖' },
+  { title: 'Audit SEO', href: '/audit-seo/', desc: 'Analyse complète de votre site : technique, contenu, backlinks, logs serveur. Un diagnostic qui identifie précisément ce qui bloque votre visibilité et un plan d\'action priorisé par impact.', icon: '🔍' },
+  { title: 'Stratégie de contenu', href: '/strategie-contenu/', desc: 'Recherche de mots-clés, planning éditorial, rédaction optimisée. Des contenus qui se positionnent sur Google et qui convertissent vos visiteurs en clients. Pas du remplissage.', icon: '✍️' },
+  { title: 'Netlinking', href: '/netlinking/', desc: 'Construction de liens de qualité, thématisés et progressifs. Chaque backlink est sélectionné pour sa pertinence et son autorité réelle. Trust Flow > volume.', icon: '🔗' },
+  { title: 'SEO Technique', href: '/seo-technique/', desc: 'Performance, Core Web Vitals, crawl budget, indexation, données structurées. Le socle technique sans lequel aucune stratégie de contenu ne peut fonctionner.', icon: '⚙️' },
+  { title: 'SEO Local', href: '/seo-local/', desc: 'Google Business Profile, citations locales, avis clients, contenu géolocalisé. 46% des recherches Google ont une intention locale. Soyez visible la ou vos clients vous cherchent.', icon: '📍' },
+  { title: 'GEO', href: '/geo/', desc: 'Generative Engine Optimization. Être visible dans les réponses des IA : ChatGPT, Gemini, Perplexity. Le nouveau terrain de visibilité que vos concurrents ignorent encore.', icon: '🤖' },
 ];
 
 const caseStudies = [
@@ -95,7 +95,7 @@ const faqs = [
           Pas de jargon inutile, pas de promesses en l'air. Des données, des actions, des résultats.
         </p>
         <div class="flex flex-wrap gap-4 mb-10">
-          <a href="/contact" class="bg-emerald-500 text-white px-7 py-3 rounded-lg hover:bg-emerald-600 transition font-medium">
+          <a href="/contact/" class="bg-emerald-500 text-white px-7 py-3 rounded-lg hover:bg-emerald-600 transition font-medium">
             Demander un audit gratuit
           </a>
           <a href="#cas-clients" class="border border-emerald-400 text-emerald-600 px-7 py-3 rounded-lg hover:bg-emerald-50 transition font-medium">
@@ -347,7 +347,7 @@ const faqs = [
     <p class="text-gray-600 text-center mb-12">Analyses techniques, retours d'expérience et méthodes SEO.</p>
     <div class="grid md:grid-cols-3 gap-8 mb-12">
       {latestPosts.map(post => (
-        <a href={`/blog/${post.slug}`} class="group block bg-white rounded-xl border border-gray-200 p-6 hover:border-emerald-400 hover:shadow-lg transition">
+        <a href={`/blog/${post.slug}/`} class="group block bg-white rounded-xl border border-gray-200 p-6 hover:border-emerald-400 hover:shadow-lg transition">
           <time class="text-sm text-gray-400">{new Date(post.data.date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</time>
           <h3 class="text-lg font-semibold mt-2 mb-3 group-hover:text-emerald-600 transition line-clamp-2">{post.data.title}</h3>
           <p class="text-gray-600 text-sm line-clamp-3">{post.data.description}</p>
@@ -355,7 +355,7 @@ const faqs = [
       ))}
     </div>
     <div class="text-center">
-      <a href="/blog" class="border border-emerald-400 text-emerald-600 px-7 py-3 rounded-lg hover:bg-emerald-50 transition font-medium">
+      <a href="/blog/" class="border border-emerald-400 text-emerald-600 px-7 py-3 rounded-lg hover:bg-emerald-50 transition font-medium">
         Voir tous les articles
       </a>
     </div>
@@ -369,7 +369,7 @@ const faqs = [
         Premier échange gratuit et sans engagement. Je regarde votre site,
         je vous dis ce que je vois et ce qu'on peut faire. Clairement.
       </p>
-      <a href="/contact" class="inline-block bg-emerald-500 text-white px-8 py-4 rounded-lg hover:bg-emerald-600 transition font-medium text-lg">
+      <a href="/contact/" class="inline-block bg-emerald-500 text-white px-8 py-4 rounded-lg hover:bg-emerald-600 transition font-medium text-lg">
         Prendre contact
       </a>
     </div>

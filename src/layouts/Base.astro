@@ -75,12 +75,13 @@ const fullCanonical = canonical || new URL(Astro.url.pathname, siteUrl).href;
     <nav class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
       <a href="/" class="text-xl font-bold text-gray-900">Arnaud <span class="text-emerald-500">Koszarek</span></a>
       <div class="hidden md:flex items-center gap-8 text-sm">
-        <a href="/audit-seo" class="text-gray-600 hover:text-gray-900 transition">Audit SEO</a>
-        <a href="/strategie-contenu" class="text-gray-600 hover:text-gray-900 transition">Contenu</a>
-        <a href="/netlinking" class="text-gray-600 hover:text-gray-900 transition">Netlinking</a>
-        <a href="/seo-technique" class="text-gray-600 hover:text-gray-900 transition">SEO Technique</a>
-        <a href="/blog" class="text-gray-600 hover:text-gray-900 transition">Blog</a>
-        <a href="/contact" class="bg-emerald-500 text-white px-5 py-2 rounded-lg hover:bg-emerald-600 transition text-sm">Contact</a>
+        <a href="/audit-seo/" class="text-gray-600 hover:text-gray-900 transition">Audit SEO</a>
+        <a href="/strategie-contenu/" class="text-gray-600 hover:text-gray-900 transition">Contenu</a>
+        <a href="/netlinking/" class="text-gray-600 hover:text-gray-900 transition">Netlinking</a>
+        <a href="/seo-technique/" class="text-gray-600 hover:text-gray-900 transition">SEO Technique</a>
+        <a href="/geo/" class="text-gray-600 hover:text-gray-900 transition">GEO</a>
+        <a href="/blog/" class="text-gray-600 hover:text-gray-900 transition">Blog</a>
+        <a href="/contact/" class="bg-emerald-500 text-white px-5 py-2 rounded-lg hover:bg-emerald-600 transition text-sm">Contact</a>
       </div>
       <button id="mobile-menu-btn" class="md:hidden p-2" aria-label="Menu">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -89,12 +90,13 @@ const fullCanonical = canonical || new URL(Astro.url.pathname, siteUrl).href;
       </button>
     </nav>
     <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-3">
-      <a href="/audit-seo" class="block text-gray-600">Audit SEO</a>
-      <a href="/strategie-contenu" class="block text-gray-600">Contenu</a>
-      <a href="/netlinking" class="block text-gray-600">Netlinking</a>
-      <a href="/seo-technique" class="block text-gray-600">SEO Technique</a>
-      <a href="/blog" class="block text-gray-600">Blog</a>
-      <a href="/contact" class="block text-gray-900 font-medium">Contact</a>
+      <a href="/audit-seo/" class="block text-gray-600">Audit SEO</a>
+      <a href="/strategie-contenu/" class="block text-gray-600">Contenu</a>
+      <a href="/netlinking/" class="block text-gray-600">Netlinking</a>
+      <a href="/seo-technique/" class="block text-gray-600">SEO Technique</a>
+      <a href="/geo/" class="block text-gray-600">GEO</a>
+      <a href="/blog/" class="block text-gray-600">Blog</a>
+      <a href="/contact/" class="block text-gray-900 font-medium">Contact</a>
     </div>
   </header>
 
@@ -112,24 +114,25 @@ const fullCanonical = canonical || new URL(Astro.url.pathname, siteUrl).href;
         <div>
           <p class="font-medium mb-2">Services</p>
           <div class="space-y-1 text-sm text-gray-600">
-            <a href="/audit-seo" class="block hover:text-gray-900">Audit SEO</a>
-            <a href="/strategie-contenu" class="block hover:text-gray-900">Stratégie de contenu</a>
-            <a href="/netlinking" class="block hover:text-gray-900">Netlinking</a>
-            <a href="/seo-technique" class="block hover:text-gray-900">SEO Technique</a>
-            <a href="/seo-local" class="block hover:text-gray-900">SEO Local</a>
+            <a href="/audit-seo/" class="block hover:text-gray-900">Audit SEO</a>
+            <a href="/strategie-contenu/" class="block hover:text-gray-900">Stratégie de contenu</a>
+            <a href="/netlinking/" class="block hover:text-gray-900">Netlinking</a>
+            <a href="/seo-technique/" class="block hover:text-gray-900">SEO Technique</a>
+            <a href="/seo-local/" class="block hover:text-gray-900">SEO Local</a>
+            <a href="/geo/" class="block hover:text-gray-900">GEO</a>
           </div>
         </div>
         <div>
           <p class="font-medium mb-2">Contact</p>
           <div class="space-y-1 text-sm text-gray-600">
-            <a href="/contact" class="block hover:text-gray-900">Demander un devis</a>
-            <a href="/blog" class="block hover:text-gray-900">Blog</a>
+            <a href="/contact/" class="block hover:text-gray-900">Demander un devis</a>
+            <a href="/blog/" class="block hover:text-gray-900">Blog</a>
           </div>
         </div>
       </div>
       <div class="border-t border-gray-200 mt-8 pt-6 text-sm text-gray-500 flex justify-between">
         <p>&copy; {new Date().getFullYear()} Arnaud Koszarek</p>
-        <a href="/mentions-legales" class="hover:text-gray-700">Mentions légales</a>
+        <a href="/mentions-legales/" class="hover:text-gray-700">Mentions légales</a>
       </div>
     </div>
   </footer>
