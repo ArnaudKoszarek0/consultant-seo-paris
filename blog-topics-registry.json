@@ -859,6 +859,27 @@
         "donnees structurees",
         "Recipe schema"
       ]
+    },
+    {
+      "slug": "google-supprime-num100-rank-tracking-aveugle",
+      "themes": [
+        "suppression paramètre num=100",
+        "rank tracking limité top 20",
+        "Ahrefs Semrush données tronquées",
+        "Search Console source de vérité",
+        "asymétrie informationnelle Google"
+      ],
+      "keywords": [
+        "num=100",
+        "rank tracker",
+        "top 20",
+        "Ahrefs",
+        "Semrush",
+        "Search Console",
+        "positions",
+        "données SERP",
+        "scraping Google"
+      ]
     }
   ],
   "excluded_angles": [
