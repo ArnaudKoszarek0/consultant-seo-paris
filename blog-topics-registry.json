@@ -880,6 +880,27 @@
         "données SERP",
         "scraping Google"
       ]
+    },
+    {
+      "slug": "gemini-4-semantic-filter-core-update-mars-2026",
+      "themes": [
+        "Gemini 4.0 Semantic Filter",
+        "détection contenu IA core update",
+        "Information Gain signal",
+        "expertise prouvée vs déclarée",
+        "entity-based ranking mars 2026"
+      ],
+      "keywords": [
+        "Gemini 4.0 Semantic Filter",
+        "Core Update mars 2026",
+        "contenu IA détection",
+        "Information Gain",
+        "55%",
+        "72%",
+        "YMYL",
+        "entity ranking",
+        "supervision éditoriale"
+      ]
     }
   ],
   "excluded_angles": [
