@@ -1,0 +1,322 @@
+---
+import Base from '../layouts/Base.astro';
+
+const title = 'Le SEO est-il mort en 2026 ? Non. Il a muté. | Arnaud Koszarek';
+const description = 'Le SEO n’est pas mort en 2026. Il a muté : moins de clic facile, plus d’intention, d’autorité, de conversion et de visibilité IA. Voici ce qui marche encore — et mieux.';
+
+const deadItems = [
+  'Le contenu conçu pour remplir un mot-clé sans répondre à une vraie intention.',
+  'La course au volume de trafic sans lien avec le chiffre d’affaires.',
+  'Le netlinking quantité sans crédibilité, contexte ni cohérence.',
+  'Les pages molles qui rankent peut-être, mais ne convainquent personne.'
+];
+
+const mutationItems = [
+  {
+    from: 'Mot-clé',
+    to: 'Intention',
+    desc: 'On n’optimise plus une suite de termes. On construit une réponse utile à une situation réelle.'
+  },
+  {
+    from: 'Position',
+    to: 'Visibilité multi-surface',
+    desc: 'Google, AI Overviews, ChatGPT, Perplexity, FAQ, rich results : la bataille ne se joue plus sur un seul écran.'
+  },
+  {
+    from: 'Trafic brut',
+    to: 'Trafic qualifié + conversion',
+    desc: 'Mieux vaut moins de visites et plus de demandes sérieuses que l’inverse.'
+  },
+  {
+    from: 'Texte “SEO”',
+    to: 'Preuve + expertise + citabilité',
+    desc: 'Les contenus qui survivent sont ceux qu’on peut croire, citer et recommander.'
+  }
+];
+
+const worksNow = [
+  'Une architecture simple, lisible, avec des pages qui ont un vrai rôle business.',
+  'Des contenus experts qui répondent mieux que la moyenne, pas juste plus longtemps.',
+  'Des preuves visibles : cas, chiffres, références, méthode, objections traitées.',
+  'Un maillage interne propre, des clusters utiles, des FAQ réellement exploitables.',
+  'Une présence pensée aussi pour la visibilité IA et les moteurs génératifs.'
+];
+
+const method = [
+  {
+    title: 'Audit',
+    desc: 'On regarde ce qui s’est vraiment dégradé : pages, intentions, structure, signaux de confiance, surfaces de visibilité.'
+  },
+  {
+    title: 'Priorisation',
+    desc: 'On sépare ce qui est mort, ce qui est à réparer et ce qui peut devenir un vrai levier de croissance.'
+  },
+  {
+    title: 'Production / refonte',
+    desc: 'On refait les pages qui comptent, on renforce la crédibilité, et on aligne le contenu sur l’intention réelle.'
+  },
+  {
+    title: 'Mesure business',
+    desc: 'On suit la visibilité, mais surtout les signaux qui comptent : leads, demandes qualifiées, opportunités créées.'
+  }
+];
+
+const faqs = [
+  {
+    q: 'Le SEO marche-t-il encore en 2026 ?',
+    a: 'Oui. Ce qui ne marche plus, c’est le vieux SEO mécanique : pages sans relief, trafic vide, contenus produits pour l’algorithme plutôt que pour l’utilisateur. Le SEO qui fonctionne encore est plus exigeant, mais souvent plus rentable.'
+  },
+  {
+    q: 'L’IA remplace-t-elle le SEO ?',
+    a: 'Non. Elle déplace une partie de la visibilité et du parcours de recherche. Cela oblige à penser la citabilité, la confiance, la structure et la clarté différemment, mais pas à abandonner le SEO.'
+  },
+  {
+    q: 'Faut-il choisir entre SEO et SEA ?',
+    a: 'Non plus. Le SEA peut acheter de la vitesse, le SEO construit un actif durable. En 2026, les meilleurs dispositifs articulent acquisition payante, contenu utile, preuve et conversion.'
+  },
+  {
+    q: 'Que faire si mon trafic SEO baisse ?',
+    a: 'Ne pas paniquer, et surtout ne pas surcorriger au hasard. Il faut d’abord comprendre si vous avez perdu du clic inutile, de la demande qualifiée, ou de la visibilité sur des requêtes devenues plus complexes à capter.'
+  }
+];
+---
+
+<Base title={title} description={description}>
+  <section class="bg-gray-950 text-white">
+    <div class="max-w-6xl mx-auto px-6 pt-18 pb-16 md:pt-24 md:pb-22">
+      <div class="max-w-4xl">
+        <p class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-orange-200">
+          <span class="h-2 w-2 rounded-full bg-orange-400"></span>
+          SEO 2026 • visibilité organique • IA
+        </p>
+        <h1 class="mt-6 text-4xl font-bold leading-tight text-balance md:text-6xl md:leading-[1.05]">
+          Le SEO est-il mort en 2026 ?
+          <span class="block text-orange-300">Non. Il a muté.</span>
+        </h1>
+        <p class="mt-6 max-w-3xl text-lg leading-8 text-gray-300 md:text-xl">
+          Le vieux SEO qui promettait du trafic facile est en train de disparaître. En revanche, le SEO utile,
+          structuré, crédible et pensé pour la conversion reste un levier majeur — à condition d’intégrer
+          la visibilité IA et les nouveaux parcours sans clic dans la stratégie.
+        </p>
+
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <a href="/contact/" class="inline-flex items-center justify-center rounded-xl bg-orange-500 px-6 py-3.5 text-base font-semibold text-white shadow-lg shadow-orange-900/20 transition hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-300 focus:ring-offset-2 focus:ring-offset-gray-950">
+            Demander un audit SEO
+          </a>
+          <a href="#preuve" class="inline-flex items-center justify-center rounded-xl border border-white/15 bg-white/5 px-6 py-3.5 text-base font-semibold text-white transition hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white/40">
+            Voir la preuve ↓
+          </a>
+        </div>
+
+        <div class="mt-10 grid gap-4 sm:grid-cols-3">
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+            <p class="text-3xl font-bold text-white">20 ans</p>
+            <p class="mt-2 text-sm leading-6 text-gray-300">d’expérience SEO sur des cycles, des updates et des marchés très différents</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+            <p class="text-3xl font-bold text-white">300+</p>
+            <p class="mt-2 text-sm leading-6 text-gray-300">audits réalisés pour identifier ce qui freine vraiment la visibilité</p>
+          </div>
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+            <p class="text-3xl font-bold text-white">200+</p>
+            <p class="mt-2 text-sm leading-6 text-gray-300">clients accompagnés, du site rentable à la marque à forte exposition</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="max-w-5xl mx-auto px-6 py-18 md:py-22">
+      <div class="max-w-3xl">
+        <p class="text-sm font-semibold uppercase tracking-[0.16em] text-orange-500">Le faux débat</p>
+        <h2 class="mt-3 text-3xl font-bold text-gray-950 md:text-4xl">Ce n’est pas le SEO qui meurt. C’est une certaine manière de le pratiquer.</h2>
+        <p class="mt-5 text-lg leading-8 text-gray-600">
+          Quand on dit “le SEO est mort”, on parle souvent d’un SEO déjà dépassé : celui des pages creuses,
+          du volume pour le volume, des promesses génériques et des optimisations sans impact business.
+          Ce SEO-là est effectivement en train de perdre sa place.
+        </p>
+      </div>
+
+      <div class="mt-10 grid gap-5 md:grid-cols-2">
+        {deadItems.map((item) => (
+          <div class="rounded-2xl border border-gray-200 bg-gray-50 p-6">
+            <p class="text-base leading-7 text-gray-800">{item}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-950 text-white">
+    <div class="max-w-6xl mx-auto px-6 py-18 md:py-22">
+      <div class="max-w-3xl">
+        <p class="text-sm font-semibold uppercase tracking-[0.16em] text-orange-300">La mutation</p>
+        <h2 class="mt-3 text-3xl font-bold md:text-4xl">Moins de clic automatique. Plus d’intention, de confiance et de citabilité.</h2>
+        <p class="mt-5 text-lg leading-8 text-gray-300">
+          AI Overviews, ChatGPT, Perplexity et les réponses directes changent la distribution du clic.
+          Cela ne rend pas le SEO inutile. Cela rend le SEO superficiel inutile.
+        </p>
+      </div>
+
+      <div class="mt-12 grid gap-6 md:grid-cols-2">
+        {mutationItems.map((item) => (
+          <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+            <div class="flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.14em] text-orange-200">
+              <span class="rounded-full bg-white/10 px-3 py-1">{item.from}</span>
+              <span>→</span>
+              <span class="rounded-full bg-orange-500/15 px-3 py-1 text-orange-100">{item.to}</span>
+            </div>
+            <p class="mt-4 leading-7 text-gray-300">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="max-w-5xl mx-auto px-6 py-18 md:py-22">
+      <div class="grid gap-10 md:grid-cols-[1.1fr_0.9fr] md:items-start">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-[0.16em] text-orange-500">Ce qui marche encore</p>
+          <h2 class="mt-3 text-3xl font-bold text-gray-950 md:text-4xl">Le nouveau SEO est plus exigeant. Donc plus défendable.</h2>
+          <div class="mt-8 space-y-5">
+            {worksNow.map((item, index) => (
+              <div class="flex gap-4 rounded-2xl border border-gray-200 p-5">
+                <span class="mt-1 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-orange-100 text-sm font-bold text-orange-700">{index + 1}</span>
+                <p class="leading-7 text-gray-700">{item}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <aside id="preuve" class="rounded-3xl border border-orange-100 bg-orange-50 p-8">
+          <p class="text-sm font-semibold uppercase tracking-[0.16em] text-orange-600">La preuve business</p>
+          <h3 class="mt-3 text-2xl font-bold text-gray-950">Ce qu’un décideur veut vraiment savoir</h3>
+          <div class="mt-6 space-y-5">
+            <div class="rounded-2xl bg-white p-5 shadow-sm">
+              <p class="text-sm font-medium text-gray-500">Question réelle</p>
+              <p class="mt-2 font-semibold text-gray-900">Le SEO peut-il encore produire des demandes qualifiées ?</p>
+            </div>
+            <div class="rounded-2xl bg-white p-5 shadow-sm">
+              <p class="text-sm font-medium text-gray-500">Réponse utile</p>
+              <p class="mt-2 leading-7 text-gray-700">Oui — si la page ne se contente pas de ranker, mais aide à comprendre, comparer et décider.</p>
+            </div>
+            <div class="rounded-2xl bg-white p-5 shadow-sm">
+              <p class="text-sm font-medium text-gray-500">Nouveau terrain</p>
+              <p class="mt-2 leading-7 text-gray-700">Google n’est plus le seul point de contact. La visibilité IA fait désormais partie du jeu.</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-orange-50">
+    <div class="max-w-5xl mx-auto px-6 py-18 md:py-22">
+      <div class="max-w-3xl">
+        <p class="text-sm font-semibold uppercase tracking-[0.16em] text-orange-600">Méthode consultant-seo.paris</p>
+        <h2 class="mt-3 text-3xl font-bold text-gray-950 md:text-4xl">Une méthode simple : comprendre, prioriser, produire, mesurer.</h2>
+        <p class="mt-5 text-lg leading-8 text-gray-600">
+          Le vrai sujet n’est pas d’avoir une opinion sur la mort du SEO. Le vrai sujet est de savoir
+          quoi faire, dans quel ordre, pour récupérer de la visibilité utile.
+        </p>
+      </div>
+
+      <div class="mt-12 grid gap-6 md:grid-cols-2">
+        {method.map((step, index) => (
+          <div class="rounded-2xl border border-orange-100 bg-white p-6 shadow-sm">
+            <div class="flex items-center gap-3">
+              <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-orange-500 text-sm font-bold text-white">0{index + 1}</span>
+              <h3 class="text-xl font-bold text-gray-950">{step.title}</h3>
+            </div>
+            <p class="mt-4 leading-7 text-gray-700">{step.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white">
+    <div class="max-w-4xl mx-auto px-6 py-18 md:py-22">
+      <div class="text-center">
+        <p class="text-sm font-semibold uppercase tracking-[0.16em] text-orange-500">FAQ utile</p>
+        <h2 class="mt-3 text-3xl font-bold text-gray-950 md:text-4xl">Les objections les plus fréquentes</h2>
+      </div>
+      <div class="mt-10 space-y-4">
+        {faqs.map((faq) => (
+          <details class="group rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
+            <summary class="flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-semibold text-gray-950">
+              <span>{faq.q}</span>
+              <span class="text-2xl text-orange-500 transition group-open:rotate-45">+</span>
+            </summary>
+            <p class="mt-4 leading-7 text-gray-700">{faq.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-950 text-white">
+    <div class="max-w-4xl mx-auto px-6 py-18 text-center md:py-22">
+      <h2 class="text-3xl font-bold md:text-4xl">Si votre SEO baisse, le sujet n’est pas de paniquer.</h2>
+      <p class="mt-5 text-lg leading-8 text-gray-300">
+        Le sujet est de comprendre ce qui est mort, ce qui a muté, et ce qu’il faut reconstruire
+        pour redevenir visible là où vos futurs clients cherchent vraiment.
+      </p>
+      <div class="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+        <a href="/contact/" class="inline-flex items-center justify-center rounded-xl bg-orange-500 px-6 py-3.5 text-base font-semibold text-white transition hover:bg-orange-400">
+          Demander un audit SEO
+        </a>
+        <a href="/audit-seo/" class="inline-flex items-center justify-center rounded-xl border border-white/15 bg-white/5 px-6 py-3.5 text-base font-semibold text-white transition hover:bg-white/10">
+          Voir comment j’audite un site
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div id="sticky-cta" class="fixed inset-x-0 bottom-0 z-40 translate-y-full border-t border-orange-200 bg-white/95 p-3 shadow-2xl backdrop-blur transition-transform md:hidden">
+    <div class="mx-auto flex max-w-md items-center gap-3">
+      <a href="/contact/" class="flex-1 rounded-xl bg-orange-500 px-4 py-3 text-center text-sm font-semibold text-white">
+        Demander un audit SEO
+      </a>
+      <button id="sticky-cta-close" class="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-gray-200 text-gray-500" aria-label="Fermer le CTA">
+        ✕
+      </button>
+    </div>
+  </div>
+
+  <script>
+    const sticky = document.getElementById('sticky-cta');
+    const closeBtn = document.getElementById('sticky-cta-close');
+    let dismissed = false;
+
+    const updateSticky = () => {
+      if (!sticky || dismissed) return;
+      const shouldShow = window.innerWidth < 768 && window.scrollY > 420;
+      sticky.classList.toggle('translate-y-full', !shouldShow);
+    };
+
+    closeBtn?.addEventListener('click', () => {
+      dismissed = true;
+      sticky?.classList.add('translate-y-full');
+    });
+
+    window.addEventListener('scroll', updateSticky, { passive: true });
+    window.addEventListener('resize', updateSticky);
+    updateSticky();
+  </script>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
+    })),
+  })} />
+</Base>
