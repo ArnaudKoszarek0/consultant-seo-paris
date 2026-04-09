@@ -937,6 +937,24 @@
         "rich results",
         "John Mueller"
       ]
+    },
+    {
+      "slug": "search-console-vues-hebdo-mensuelle-reporting-seo",
+      "themes": [
+        "Search Console vues hebdo mensuelle",
+        "reporting SEO",
+        "granularite des donnees",
+        "comparaison de periodes",
+        "pilotage SEO"
+      ],
+      "keywords": [
+        "Search Console",
+        "weekly view",
+        "monthly view",
+        "reporting SEO",
+        "granularite",
+        "comparaison de periodes"
+      ]
     }
   ],
   "excluded_angles": [
