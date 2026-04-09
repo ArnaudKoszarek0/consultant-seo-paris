@@ -920,6 +920,23 @@
         "merchant listings",
         "baisse impressions"
       ]
+    },
+    {
+      "slug": "google-schema-2026-nettoyage-support-donnees-structurees",
+      "themes": [
+        "données structurées 2026",
+        "Schema.org toujours utile",
+        "Search Console support supprimé",
+        "priorisation schema SEO"
+      ],
+      "keywords": [
+        "Schema.org 2026",
+        "données structurées",
+        "Search Console",
+        "Google structured data",
+        "rich results",
+        "John Mueller"
+      ]
     }
   ],
   "excluded_angles": [
