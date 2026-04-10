@@ -955,6 +955,25 @@
         "granularite",
         "comparaison de periodes"
       ]
+    },
+    {
+      "slug": "google-sitemaps-multiples-diagnostic-crawl-indexation",
+      "themes": [
+        "sitemaps XML multiples",
+        "diagnostic crawl",
+        "pilotage indexation",
+        "segmentation par type d'URL",
+        "John Mueller avril 2026"
+      ],
+      "keywords": [
+        "sitemap XML",
+        "sitemaps multiples",
+        "crawl",
+        "indexation",
+        "50 000 URLs",
+        "hreflang",
+        "Search Console"
+      ]
     }
   ],
   "excluded_angles": [
