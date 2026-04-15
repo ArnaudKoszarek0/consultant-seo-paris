@@ -1044,6 +1044,23 @@
         "crawl budget",
         "Search Console"
       ]
+    },
+    {
+      "slug": "search-console-faux-emails-impressions-avril-2026",
+      "themes": [
+        "bug Search Console email de confirmation",
+        "fiabilité des notifications Google",
+        "pilotage SEO par KPI utiles",
+        "impressions vs clics"
+      ],
+      "keywords": [
+        "Search Console",
+        "bug email",
+        "impressions",
+        "John Mueller",
+        "KPI SEO",
+        "reporting SEO"
+      ]
     }
   ],
   "excluded_angles": [
