@@ -1027,6 +1027,23 @@
         "historique navigateur",
         "15 juin 2026"
       ]
+    },
+    {
+      "slug": "google-multiple-urls-canonical-controle-seo-technique",
+      "themes": [
+        "URLs dupliquées",
+        "canonicalisation Google",
+        "SEO technique",
+        "cohérence des signaux"
+      ],
+      "keywords": [
+        "canonical",
+        "URLs dupliquées",
+        "John Mueller",
+        "SEO technique",
+        "crawl budget",
+        "Search Console"
+      ]
     }
   ],
   "excluded_angles": [
