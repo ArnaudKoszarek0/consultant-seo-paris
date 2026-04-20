@@ -1114,6 +1114,25 @@
         "reporting SEO IA",
         "avril 2026"
       ]
+    },
+    {
+      "slug": "seo-2026-fallbacks-no-javascript",
+      "themes": [
+        "JavaScript SEO",
+        "fallback no-JavaScript",
+        "rendu HTML initial",
+        "SEO technique 2026",
+        "rendering Googlebot"
+      ],
+      "keywords": [
+        "JavaScript SEO",
+        "fallback no-JavaScript",
+        "HTML initial",
+        "Googlebot rendering",
+        "SSR",
+        "hydration",
+        "SEO technique"
+      ]
     }
   ],
   "excluded_angles": [
