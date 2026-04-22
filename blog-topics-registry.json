@@ -1168,6 +1168,25 @@
         "zéro impressions",
         "avril 2026"
       ]
+    },
+    {
+      "slug": "googlebot-infrastructure-logs-audit-seo-avril-2026",
+      "themes": [
+        "infrastructure de crawl Google",
+        "logs serveur SEO",
+        "Googlebot client unifié",
+        "ordre des octets HTML",
+        "audit technique crawl"
+      ],
+      "keywords": [
+        "Googlebot",
+        "logs serveur",
+        "crawl Google",
+        "2 Mo",
+        "HTML initial",
+        "WRS",
+        "audit technique SEO"
+      ]
     }
   ],
   "excluded_angles": [
