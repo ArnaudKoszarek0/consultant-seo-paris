@@ -1187,6 +1187,24 @@
         "WRS",
         "audit technique SEO"
       ]
+    },
+    {
+      "slug": "google-robots-txt-directives-ignorees-audit-seo-avril-2026",
+      "themes": [
+        "robots.txt directives non supportées",
+        "gouvernance technique SEO",
+        "audit crawl bricolé",
+        "documentation Google avril 2026"
+      ],
+      "keywords": [
+        "robots.txt",
+        "directives non supportées",
+        "Google",
+        "crawl",
+        "Gary Illyes",
+        "HTTP Archive",
+        "audit SEO technique"
+      ]
     }
   ],
   "excluded_angles": [
