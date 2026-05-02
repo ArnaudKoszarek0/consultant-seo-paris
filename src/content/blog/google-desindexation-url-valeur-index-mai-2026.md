@@ -27,7 +27,7 @@ Une URL doit justifier sa place. Cette justification se mesure sur plusieurs axe
 - **fraîcheur utile**, pas juste date changée ;
 - **qualité technique** dès le HTML initial.
 
-La bonne question n'est donc plus : « pourquoi Google n'indexe pas cette page ? » La bonne question est : **pourquoi Google devrait garder cette page index ?**
+La bonne question n'est donc plus : « pourquoi Google n'indexe pas cette page ? » La bonne question est : **pourquoi Google devrait garder cette page dans l’index ?**
 
 ## Les pages faibles ne sont plus seulement ignorées
 
@@ -67,4 +67,4 @@ Une page doit avoir un rôle. Elle répond à une intention. Elle soutient une e
 
 La désindexation n'est pas toujours une catastrophe. Parfois, c'est Google qui fait le ménage que le site aurait dû faire lui-même. Le problème, c'est quand il supprime des pages qui généraient des leads, du chiffre ou une vraie visibilité.
 
-Mon conseil : auditez votre index comme un stock. Si elle ne sert ni l'utilisateur, ni la stratégie, elle doit sortir. Mieux vaut 800 pages solides que 8 000 pages médiocres.
+Mon conseil : auditez votre index comme un stock. Si une URL ne sert ni l'utilisateur, ni la stratégie, elle doit sortir. Mieux vaut 800 pages solides que 8 000 pages médiocres.
