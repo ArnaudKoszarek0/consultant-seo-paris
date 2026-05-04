@@ -1394,6 +1394,25 @@
         "YouTube",
         "first-party content"
       ]
+    },
+    {
+      "slug": "google-fresh-updates-label-seo-fraicheur",
+      "themes": [
+        "Google Fresh updates label",
+        "fraîcheur des contenus SEO",
+        "CTR snippets frais",
+        "lastmod sitemap fiable",
+        "maintenance contenus périssables"
+      ],
+      "keywords": [
+        "Fresh updates",
+        "fraîcheur SEO",
+        "dateModified",
+        "lastmod",
+        "snippet Google",
+        "contenu périssable",
+        "CTR"
+      ]
     }
   ],
   "excluded_angles": [
