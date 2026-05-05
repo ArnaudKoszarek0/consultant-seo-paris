@@ -1413,6 +1413,27 @@
         "contenu périssable",
         "CTR"
       ]
+    },
+    {
+      "slug": "web-bot-auth-google-agents-ia-seo-technique",
+      "themes": [
+        "Web Bot Auth",
+        "authentification cryptographique des bots",
+        "agents IA Google",
+        "gestion crawl WAF CDN",
+        "SEO technique trafic automatisé"
+      ],
+      "keywords": [
+        "Web Bot Auth",
+        "Google-Agent",
+        "agent.bot.goog",
+        "HTTP Message Signatures",
+        "RFC 9421",
+        "bots IA",
+        "crawl SEO",
+        "WAF",
+        "reverse DNS"
+      ]
     }
   ],
   "excluded_angles": [
