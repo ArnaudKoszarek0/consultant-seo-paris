@@ -1434,6 +1434,26 @@
         "WAF",
         "reverse DNS"
       ]
+    },
+    {
+      "slug": "microsoft-index-reponses-ia-seo-2026",
+      "themes": [
+        "Microsoft AI answers index",
+        "grounding IA",
+        "indexation pour réponses IA",
+        "SEO information exploitable",
+        "fraîcheur et sources pour IA"
+      ],
+      "keywords": [
+        "Microsoft Bing",
+        "AI answers index",
+        "grounding",
+        "réponses IA",
+        "indexation IA",
+        "preuves sourcées",
+        "fraîcheur contenu",
+        "gouvernance information"
+      ]
     }
   ],
   "excluded_angles": [
