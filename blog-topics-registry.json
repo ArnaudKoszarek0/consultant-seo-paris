@@ -1474,6 +1474,25 @@
         "citations IA",
         "SEO 2026"
       ]
+    },
+    {
+      "slug": "google-ia-boites-noires-observabilite-seo",
+      "themes": [
+        "systèmes IA Google isolés",
+        "boîte noire algorithmique",
+        "observabilité SEO",
+        "AI Overviews vs AI Mode",
+        "debugging machine learning Search"
+      ],
+      "keywords": [
+        "boîte noire IA Google",
+        "AI Overviews",
+        "AI Mode",
+        "systèmes isolés",
+        "observabilité SEO",
+        "fan-out queries",
+        "Nikola Todorovic"
+      ]
     }
   ],
   "excluded_angles": [
