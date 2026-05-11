@@ -1534,6 +1534,27 @@
         "août 2026",
         "CTR SEO"
       ]
+    },
+    {
+      "slug": "schema-org-citations-ia-ahrefs",
+      "themes": [
+        "Schema.org et citations IA",
+        "étude Ahrefs JSON-LD",
+        "AI Overviews AI Mode ChatGPT",
+        "corrélation vs causalité SEO",
+        "GEO technique limites schema"
+      ],
+      "keywords": [
+        "Schema.org",
+        "JSON-LD",
+        "citations IA",
+        "Ahrefs",
+        "AI Overviews",
+        "AI Mode",
+        "ChatGPT",
+        "données structurées",
+        "GEO"
+      ]
     }
   ],
   "excluded_angles": [
