@@ -1555,6 +1555,24 @@
         "données structurées",
         "GEO"
       ]
+    },
+    {
+      "slug": "bing-webmaster-tools-http-https-diagnostic-seo",
+      "themes": [
+        "Bing Webmaster Tools HTTP HTTPS",
+        "diagnostic migration HTTPS",
+        "SEO technique Bing",
+        "propriétés Search Console vs Bing"
+      ],
+      "keywords": [
+        "Bing Webmaster Tools",
+        "HTTP HTTPS",
+        "migration HTTPS",
+        "diagnostic SEO",
+        "Bingbot",
+        "logs serveur",
+        "sitemaps"
+      ]
     }
   ],
   "excluded_angles": [
