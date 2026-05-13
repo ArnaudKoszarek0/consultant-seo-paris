@@ -1573,6 +1573,24 @@
         "logs serveur",
         "sitemaps"
       ]
+    },
+    {
+      "slug": "google-ads-requetes-intentions-seo",
+      "themes": [
+        "Google Ads search terms approximation intention",
+        "donnée de requête moins littérale",
+        "keyword research par intention",
+        "Lens AI Mode AI Overviews reporting"
+      ],
+      "keywords": [
+        "Google Ads",
+        "termes de recherche",
+        "approximation intention",
+        "keyword research",
+        "AI Mode",
+        "Lens",
+        "données SEO"
+      ]
     }
   ],
   "excluded_angles": [
