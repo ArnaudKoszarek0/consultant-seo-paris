@@ -1591,6 +1591,26 @@
         "Lens",
         "données SEO"
       ]
+    },
+    {
+      "slug": "ga4-ai-assistant-trafic-seo",
+      "themes": [
+        "GA4 AI Assistant traffic",
+        "mesure trafic assistants IA",
+        "reporting SEO IA",
+        "attribution ChatGPT Gemini Claude"
+      ],
+      "keywords": [
+        "GA4",
+        "AI Assistant",
+        "ai-assistant",
+        "ChatGPT",
+        "Gemini",
+        "Claude",
+        "trafic IA",
+        "reporting SEO",
+        "analytics"
+      ]
     }
   ],
   "excluded_angles": [
