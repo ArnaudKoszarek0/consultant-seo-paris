@@ -1669,6 +1669,26 @@
         "trafic IA",
         "SEO IA"
       ]
+    },
+    {
+      "slug": "google-hasadultconsideration-schema-produit-seo-ecommerce",
+      "themes": [
+        "hasAdultConsideration Schema.org",
+        "données structurées produit adulte",
+        "Merchant listing Product variant",
+        "SEO e-commerce produits adultes",
+        "alignement Merchant Center données structurées"
+      ],
+      "keywords": [
+        "hasAdultConsideration",
+        "Schema.org",
+        "Merchant listing",
+        "Product variant",
+        "adult property",
+        "produits adultes",
+        "SEO e-commerce",
+        "Merchant Center"
+      ]
     }
   ],
   "excluded_angles": [
