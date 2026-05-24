@@ -5,7 +5,7 @@ date: "2026-05-23"
 tags: ["seo", "actualite"]
 ---
 
-# Google transforme sa barre de recherche : pourquoi l'" intelligent Search Box " change le SEO
+# Google transforme sa barre de recherche : pourquoi l'intelligent Search Box change le SEO
 
 Google vient de toucher à un élément central : la barre de recherche. À Google I/O 2026, Liz Reid a présenté l'intelligent Search Box, décrite comme la plus grosse évolution de la boîte de recherche en plus de 25 ans.
 
@@ -17,11 +17,11 @@ Mon avis : Google ne veut plus seulement recevoir une requête. Google veut rece
 
 ## La requête courte perd du poids
 
-Pendant vingt ans, le SEO a beaucoup travaillé autour de requêtes courtes : " consultant SEO ", " audit SEO ", " agence SEO Paris ", " prix référencement naturel ". Ces requêtes restent utiles. Elles ont du volume. Elles structurent encore les pages.
+Pendant vingt ans, le SEO a beaucoup travaillé autour de requêtes courtes : consultant SEO, audit SEO, agence SEO Paris, prix référencement naturel. Ces requêtes restent utiles. Elles ont du volume. Elles structurent encore les pages.
 
 Mais l'intelligent Search Box pousse l'utilisateur vers autre chose.
 
-Au lieu de taper " audit SEO ", il pourra demander : " Analyse ce site, compare-le à mes concurrents, explique pourquoi mon trafic baisse depuis la Core Update de mai 2026 et priorise les actions selon l'impact business. "
+Au lieu de taper audit SEO, il pourra demander : analyse ce site, compare-le à mes concurrents, explique pourquoi mon trafic baisse depuis la Core Update de mai 2026 et priorise les actions selon l'impact business.
 
 Ce n'est plus une requête. C'est un brief.
 
@@ -41,7 +41,7 @@ Un contenu utile doit couvrir un **scénario réel** :
 - des exemples ;
 - une méthode vérifiable.
 
-Exemple concret. Une page " audit SEO " qui liste 12 points standards a peu de valeur. Une page qui explique comment auditer un e-commerce de 50 000 URL après une baisse de 30 % est plus exploitable.
+Exemple concret. Une page audit SEO qui liste 12 points standards a peu de valeur. Une page qui explique comment auditer un e-commerce de 50 000 URL après une baisse de 30 % est plus exploitable.
 
 Pourquoi ? Parce qu'elle colle aux requêtes longues que cette interface encourage.
 
@@ -67,7 +67,7 @@ Avant, l'autocomplete complétait une expression. Maintenant, la boîte peut ori
 
 Pour le SEO, il faut arrêter de penser uniquement en pages informationnelles plates.
 
-Pas seulement : " Qu'est-ce qu'un audit SEO ? "
+Pas seulement : qu'est-ce qu'un audit SEO ?
 
 Mais aussi :
 
