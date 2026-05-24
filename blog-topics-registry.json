@@ -1742,6 +1742,24 @@
         "AI Mode",
         "Google I/O 2026"
       ]
+    },
+    {
+      "slug": "search-console-alertes-email-seo",
+      "themes": [
+        "alertes email Search Console",
+        "observabilité SEO",
+        "surveillance hebdomadaire GSC",
+        "monitoring SEO proactif"
+      ],
+      "keywords": [
+        "Search Console",
+        "alertes email",
+        "monitoring SEO",
+        "observabilité",
+        "clics SEO",
+        "CTR",
+        "pages indexées"
+      ]
     }
   ],
   "excluded_angles": [
