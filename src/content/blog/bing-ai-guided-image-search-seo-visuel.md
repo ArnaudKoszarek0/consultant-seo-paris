@@ -15,7 +15,7 @@ Pendant des années, l'optimisation image a été traitée comme une checklist :
 
 ## Ce que Bing vient de montrer
 
-Search Engine Roundtable l'a signalé le 25 mai 2026 : Bing déploie officiellement son expérience de recherche d'images guidée par IA, L'idée est simple : au lieu d'afficher uniquement une grille, Bing propose une exploration structurée. L'IA classe, oriente, rapproche les contenus et aide l'utilisateur à préciser sa recherche.
+Search Engine Roundtable l'a signalé le 25 mai 2026 : Bing déploie officiellement son expérience de recherche d'images guidée par IA. L'idée est simple : au lieu d'afficher uniquement une grille, Bing propose une exploration structurée. L'IA classe, oriente, rapproche les contenus et aide l'utilisateur à préciser sa recherche.
 
 Ce mouvement colle à la stratégie Microsoft : transformer la recherche en parcours assisté, pas en liste brute. Copilot, Bing, Edge et Windows poussent tous dans cette direction.
 
