@@ -1760,6 +1760,25 @@
         "CTR",
         "pages indexées"
       ]
+    },
+    {
+      "slug": "bing-ai-guided-image-search-seo-visuel",
+      "themes": [
+        "Bing AI Guided Image Search",
+        "recherche d’images guidée par IA",
+        "SEO visuel",
+        "optimisation images pour IA",
+        "contexte sémantique images"
+      ],
+      "keywords": [
+        "Bing image search",
+        "AI Guided Image Search",
+        "SEO image",
+        "recherche visuelle IA",
+        "attribut alt",
+        "ImageObject",
+        "HTML initial"
+      ]
     }
   ],
   "excluded_angles": [
