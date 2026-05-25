@@ -5,8 +5,6 @@ date: "2026-05-25"
 tags: ["seo", "actualite"]
 ---
 
-# Bing lance la recherche d'images guidée par IA : le SEO visuel sort du simple attribut alt
-
 Microsoft vient d'officialiser une nouvelle expérience de recherche d'images sur Bing : une interface guidée par IA, avec des regroupements, des catégories et des suggestions contextuelles. Ce n'est pas un habillage graphique. C'est un signal clair : la recherche visuelle n'est plus seulement une grille d'images. Elle devient un système de compréhension.
 
 Et pour le SEO, cela change la grille de lecture.
