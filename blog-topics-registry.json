@@ -1779,6 +1779,27 @@
         "ImageObject",
         "HTML initial"
       ]
+    },
+    {
+      "slug": "google-merchant-center-attributs-conversationnels-seo-ecommerce",
+      "themes": [
+        "Google Merchant Center attributs conversationnels",
+        "flux produit pour AI Mode",
+        "SEO e-commerce données produit",
+        "question_and_answer Merchant Center",
+        "popularité et variantes produits"
+      ],
+      "keywords": [
+        "Merchant Center",
+        "attributs conversationnels",
+        "question_and_answer",
+        "document_link",
+        "related_product",
+        "variant_option",
+        "popularity_rank",
+        "SEO e-commerce",
+        "AI Mode"
+      ]
     }
   ],
   "excluded_angles": [
