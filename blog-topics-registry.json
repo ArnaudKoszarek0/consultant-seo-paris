@@ -1818,6 +1818,26 @@
         "disponibilité produit",
         "commerce local"
       ]
+    },
+    {
+      "slug": "core-web-vitals-wordpress-shopify-astro-2026",
+      "themes": [
+        "Core Web Vitals par technologie",
+        "WordPress performance 2026",
+        "Shopify Core Web Vitals",
+        "Astro performance SEO",
+        "HTTP Archive CrUX CMS comparison"
+      ],
+      "keywords": [
+        "Core Web Vitals",
+        "WordPress",
+        "Shopify",
+        "Astro",
+        "HTTP Archive",
+        "CrUX",
+        "Lighthouse",
+        "performance SEO"
+      ]
     }
   ],
   "excluded_angles": [
