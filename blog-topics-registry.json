@@ -1911,6 +1911,25 @@
         "contenus conversationnels",
         "1492.vision"
       ]
+    },
+    {
+      "slug": "microsoft-web-iq-agents-seo-grounding",
+      "themes": [
+        "Microsoft Web IQ",
+        "search engine platform for AI agents",
+        "grounding APIs",
+        "Bing index for agents",
+        "SEO agentique"
+      ],
+      "keywords": [
+        "Microsoft Web IQ",
+        "Bing",
+        "agents IA",
+        "grounding",
+        "Harrier",
+        "token efficiency",
+        "SEO IA"
+      ]
     }
   ],
   "excluded_angles": [
