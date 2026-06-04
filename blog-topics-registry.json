@@ -1930,6 +1930,24 @@
         "token efficiency",
         "SEO IA"
       ]
+    },
+    {
+      "slug": "merchant-center-regles-attributs-produits-automatiques",
+      "themes": [
+        "Merchant Center règles d attributs",
+        "produits trouvés automatiquement",
+        "SEO e-commerce données produit",
+        "flux produit comme signal SEO"
+      ],
+      "keywords": [
+        "Merchant Center",
+        "attribute rules",
+        "produits automatiques",
+        "SEO e-commerce",
+        "données produit",
+        "Schema Product",
+        "flux marchand"
+      ]
     }
   ],
   "excluded_angles": [
