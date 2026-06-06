@@ -1948,6 +1948,26 @@
         "Schema Product",
         "flux marchand"
       ]
+    },
+    {
+      "slug": "google-business-profile-ga4-seo-local",
+      "themes": [
+        "Google Business Profile dans GA4",
+        "reporting SEO local",
+        "mesure interactions locales",
+        "liaison Product Links GA4",
+        "KPI appels itinéraires clics site"
+      ],
+      "keywords": [
+        "Google Business Profile",
+        "GA4",
+        "SEO local",
+        "Product Links",
+        "appels",
+        "itinéraires",
+        "clics site",
+        "reporting local"
+      ]
     }
   ],
   "excluded_angles": [
