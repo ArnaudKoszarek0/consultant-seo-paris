@@ -1968,6 +1968,26 @@
         "clics site",
         "reporting local"
       ]
+    },
+    {
+      "slug": "google-search-profiles-createurs-seo-entite",
+      "themes": [
+        "Google Search Profiles",
+        "SEO entité auteur",
+        "créateurs 100 000 abonnés",
+        "E-E-A-T personnes identifiables",
+        "identité éditoriale vérifiable"
+      ],
+      "keywords": [
+        "Search Profiles",
+        "profil créateur Google",
+        "100 000 abonnés",
+        "SEO entité",
+        "auteur SEO",
+        "schema Person",
+        "sameAs",
+        "E-E-A-T"
+      ]
     }
   ],
   "excluded_angles": [
