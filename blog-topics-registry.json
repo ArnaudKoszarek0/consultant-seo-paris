@@ -2025,6 +2025,24 @@
         "Shopping Graph",
         "trafic qualifié"
       ]
+    },
+    {
+      "slug": "schema-org-statistiques-usage-seo",
+      "themes": [
+        "Schema.org usage statistics",
+        "statistiques usage données structurées",
+        "audit Schema.org SEO",
+        "popularité balisage vs performance SEO"
+      ],
+      "keywords": [
+        "Schema.org",
+        "usage statistics",
+        "données structurées",
+        "JSON-LD",
+        "domain count bucket",
+        "Google public web crawl",
+        "audit schema SEO"
+      ]
     }
   ],
   "excluded_angles": [
