@@ -2043,6 +2043,24 @@
         "Google public web crawl",
         "audit schema SEO"
       ]
+    },
+    {
+      "slug": "google-business-profile-whatsapp-auto-seo-local",
+      "themes": [
+        "Google Business Profile WhatsApp automatique",
+        "bug champ Chat GBP",
+        "SEO local conversion et messagerie",
+        "contrôle opérationnel fiches locales"
+      ],
+      "keywords": [
+        "Google Business Profile",
+        "WhatsApp",
+        "champ Chat",
+        "SEO local",
+        "fiche établissement",
+        "conversion locale",
+        "messagerie"
+      ]
     }
   ],
   "excluded_angles": [
