@@ -2061,6 +2061,25 @@
         "conversion locale",
         "messagerie"
       ]
+    },
+    {
+      "slug": "search-console-platform-property-tooltips-seo",
+      "themes": [
+        "Search Console Platform property tooltips",
+        "propriétés de plateforme",
+        "SEO CMS SaaS e-commerce",
+        "responsabilité technique plateforme"
+      ],
+      "keywords": [
+        "Platform property tooltips",
+        "Search Console",
+        "propriété plateforme",
+        "CMS",
+        "Shopify",
+        "Webflow",
+        "SEO technique",
+        "audit plateforme"
+      ]
     }
   ],
   "excluded_angles": [
