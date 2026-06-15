@@ -2119,6 +2119,24 @@
         "Vercel",
         "Netlify"
       ]
+    },
+    {
+      "slug": "google-llms-txt-signal-seo-decouverte",
+      "themes": [
+        "llms.txt et découverte IA",
+        "fichiers auto-déclarés non différenciants",
+        "navigation agentique vs visibilité SEO",
+        "HTML et maillage interne pour IA"
+      ],
+      "keywords": [
+        "llms.txt",
+        "John Mueller",
+        "LLM discovery",
+        "navigation agentique",
+        "HTML initial",
+        "maillage interne",
+        "GEO"
+      ]
     }
   ],
   "excluded_angles": [
