@@ -2137,6 +2137,25 @@
         "maillage interne",
         "GEO"
       ]
+    },
+    {
+      "slug": "site-us-dossier-seo-international",
+      "themes": [
+        "SEO international",
+        "structure URL pays",
+        "dossier /us/",
+        "hreflang et ciblage pays",
+        "architecture sous-répertoire vs ccTLD"
+      ],
+      "keywords": [
+        "SEO international",
+        "/us/",
+        "structure URL",
+        "hreflang",
+        "sous-répertoire",
+        "site américain",
+        "John Mueller"
+      ]
     }
   ],
   "excluded_angles": [
