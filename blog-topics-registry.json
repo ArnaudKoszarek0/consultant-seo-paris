@@ -2176,6 +2176,24 @@
         "citations IA",
         "visibilité IA"
       ]
+    },
+    {
+      "slug": "migration-domaine-google-variants-search-console",
+      "themes": [
+        "migration de domaine Google",
+        "Change of Address Tool Search Console",
+        "variants www non-www sous-domaines",
+        "transfert signaux SEO migration"
+      ],
+      "keywords": [
+        "migration de domaine",
+        "Change of Address",
+        "Search Console",
+        "www non-www",
+        "sous-domaines",
+        "redirections 301",
+        "migration SEO"
+      ]
     }
   ],
   "excluded_angles": [
