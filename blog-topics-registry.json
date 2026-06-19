@@ -2194,6 +2194,25 @@
         "redirections 301",
         "migration SEO"
       ]
+    },
+    {
+      "slug": "google-detection-spam-ia-clusters-production",
+      "themes": [
+        "détection spam IA par clusters",
+        "S-CTS Google Research",
+        "signature éditoriale globale",
+        "contenu fonctionnellement identique",
+        "audit production contenu IA"
+      ],
+      "keywords": [
+        "S-CTS",
+        "spam IA",
+        "clusters de contenu",
+        "Sentence-BERT",
+        "contenu IA SEO",
+        "signature éditoriale",
+        "production de contenu"
+      ]
     }
   ],
   "excluded_angles": [
