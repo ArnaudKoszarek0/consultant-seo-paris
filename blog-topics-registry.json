@@ -2291,6 +2291,25 @@
         "Search Console",
         "trafic organique"
       ]
+    },
+    {
+      "slug": "google-business-profile-messages-agent-ia-seo-local",
+      "themes": [
+        "Google Business Profile messages",
+        "agent IA local",
+        "SEO local conversationnel",
+        "fiche GBP comme landing page",
+        "conversion locale sans clic site"
+      ],
+      "keywords": [
+        "Google Business Profile",
+        "bouton Messages",
+        "agent IA",
+        "SEO local",
+        "fiche locale",
+        "conversion locale",
+        "LocalBusiness schema"
+      ]
     }
   ],
   "excluded_angles": [
