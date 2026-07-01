@@ -2349,6 +2349,24 @@
         "SEO technique",
         "accessibilite SEO"
       ]
+    },
+    {
+      "slug": "google-amp-cache-fin-seo-2026",
+      "themes": [
+        "AMP documentation juillet 2026",
+        "fin AMP Cache et AMP Viewer",
+        "SEO technique AMP",
+        "performance pages AMP hébergées éditeur"
+      ],
+      "keywords": [
+        "AMP",
+        "AMP Cache",
+        "AMP Viewer",
+        "signed exchanges",
+        "SEO technique",
+        "Core Web Vitals",
+        "juillet 2026"
+      ]
     }
   ],
   "excluded_angles": [
