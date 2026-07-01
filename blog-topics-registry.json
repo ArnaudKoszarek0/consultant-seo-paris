@@ -2329,6 +2329,26 @@
         "crawlers IA",
         "visibilité IA"
       ]
+    },
+    {
+      "slug": "accessibilite-agents-ia-seo-technique",
+      "themes": [
+        "arbre accessibilite pour agents IA",
+        "SEO technique machine-readable",
+        "ARIA labels et roles",
+        "WCAG comme lisibilite machine",
+        "audit accessibilite SEO 2026"
+      ],
+      "keywords": [
+        "arbre accessibilite",
+        "agents IA",
+        "ARIA",
+        "WCAG",
+        "Playwright MCP",
+        "WebAIM Million 2026",
+        "SEO technique",
+        "accessibilite SEO"
+      ]
     }
   ],
   "excluded_angles": [
