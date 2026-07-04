@@ -2404,6 +2404,24 @@
         "contre-notification",
         "10 à 14 jours ouvrés"
       ]
+    },
+    {
+      "slug": "search-console-indexation-retard-observabilite-seo",
+      "themes": [
+        "Search Console rapport Indexation des pages",
+        "retard reporting indexation Google",
+        "observabilité SEO technique",
+        "logs serveur et sitemaps comme contre-vérification"
+      ],
+      "keywords": [
+        "Search Console",
+        "rapport indexation",
+        "Indexation des pages",
+        "retard données",
+        "logs serveur",
+        "sitemaps XML",
+        "observabilité SEO"
+      ]
     }
   ],
   "excluded_angles": [
