@@ -9,7 +9,7 @@ tags: ["seo", "actualite"]
 
 Cloudflare pousse ses Content Signals. Google répond froidement : ça ne sert à rien pour Google Search.
 
-Le 6 juillet 2026, John Mueller a confirmé sur Reddit que Google n'utilise pas les directives Content Signals ajoutées dans robots.txt. Sa phrase est nette : ces directives n'ont **" aucun effet "** pour les crawlers ou les LLM, à sa connaissance. Il ajoute que cela ajoute surtout du bloat et de la maintenance future dans un fichier robots.txt.
+Le 6 juillet 2026, John Mueller a confirmé sur Reddit que Google n'utilise pas les directives Content Signals ajoutées dans robots.txt. Sa phrase est nette : ces directives n'ont **aucun effet** pour les crawlers ou les LLM, à sa connaissance. Il ajoute que cela ajoute surtout du bloat et de la maintenance future dans un fichier robots.txt.
 
 Cette actualité paraît technique, mais elle dit beaucoup sur l'état du marché. Depuis un an, chacun invente sa petite couche de contrôle pour les IA : llms.txt, llms-author.txt, content-signal, headers maison, règles CDN, préférences déclaratives. Le problème est simple : une règle non respectée par les robots n'est pas une règle. C'est un commentaire.
 
