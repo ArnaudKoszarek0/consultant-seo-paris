@@ -2442,6 +2442,26 @@
         "preuve sociale",
         "support GBP"
       ]
+    },
+    {
+      "slug": "cloudflare-content-signals-robots-txt-google",
+      "themes": [
+        "Cloudflare Content Signals",
+        "robots.txt directives non supportées",
+        "contrôle bots IA",
+        "SEO technique crawl",
+        "llms.txt et llms-author.txt ignorés par Google"
+      ],
+      "keywords": [
+        "Content Signals",
+        "Cloudflare",
+        "robots.txt",
+        "Googlebot",
+        "llms.txt",
+        "bots IA",
+        "John Mueller",
+        "15 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
