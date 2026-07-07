@@ -2462,6 +2462,25 @@
         "John Mueller",
         "15 septembre 2026"
       ]
+    },
+    {
+      "slug": "google-product-category-sale-duration-schema-ecommerce",
+      "themes": [
+        "Product.category structured data",
+        "sale duration Merchant Listing",
+        "balisage e-commerce Google",
+        "cohérence flux Merchant Center et JSON-LD"
+      ],
+      "keywords": [
+        "Product.category",
+        "sale duration",
+        "validFrom",
+        "validThrough",
+        "priceValidUntil",
+        "Merchant Listing",
+        "SEO e-commerce",
+        "données structurées produit"
+      ]
     }
   ],
   "excluded_angles": [
