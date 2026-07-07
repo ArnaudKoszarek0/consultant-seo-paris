@@ -28,7 +28,7 @@ La nuance compte.
 
 Une catégorie marchand décrit votre logique business : "Robes longues bohèmes", "Chaussures trail homme", "Canapés convertibles 3 places". Une catégorie Google rapproche le produit d'une taxonomie plus standard. Les deux peuvent cohabiter, mais elles ne servent pas exactement le même rôle.
 
-Mon avis est simple : si vous avez un catalogue sérieux, ****ne laissez pas uniquement le menu porter cette information****. Le menu change. Les URLs changent. Les facettes créent du bruit. Le balisage produit, lui, donne une déclaration directe dans la page.
+Mon avis est simple : si vous avez un catalogue sérieux, **ne laissez pas uniquement le menu porter cette information**. Le menu change. Les URLs changent. Les facettes créent du bruit. Le balisage produit, lui, donne une déclaration directe dans la page.
 
 Pour un site de 50 produits, l'impact sera discret. Pour un site de 50 000 références, c'est une autre histoire. La catégorisation devient un problème d'échelle, de crawl, de matching Shopping et de compréhension par les systèmes IA de Google.
 
