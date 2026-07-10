@@ -2499,6 +2499,25 @@
         "YouTube SEO",
         "reporting SEO"
       ]
+    },
+    {
+      "slug": "common-crawl-robots-txt-ia-editeurs",
+      "themes": [
+        "Common Crawl et éditeurs américains",
+        "limites du robots.txt pour les crawlers IA",
+        "archivage WARC et suppression des contenus",
+        "gouvernance des accès automatisés"
+      ],
+      "keywords": [
+        "Common Crawl",
+        "CCBot",
+        "robots.txt",
+        "crawl IA",
+        "archives WARC",
+        "scraping IA",
+        "News/Media Alliance",
+        "Digital Content Next"
+      ]
     }
   ],
   "excluded_angles": [
