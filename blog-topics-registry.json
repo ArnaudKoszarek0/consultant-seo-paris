@@ -2518,6 +2518,27 @@
         "News/Media Alliance",
         "Digital Content Next"
       ]
+    },
+    {
+      "slug": "visibilite-ia-bruit-statistique-classements-geo",
+      "themes": [
+        "instabilité des classements de visibilité IA",
+        "bruit statistique dans le reporting GEO",
+        "marge d erreur des citations IA",
+        "méthodologie de mesure SearchGPT Gemini Perplexity"
+      ],
+      "keywords": [
+        "visibilité IA",
+        "classement GEO",
+        "bruit statistique",
+        "IQRush",
+        "marge d erreur",
+        "citations IA",
+        "SearchGPT",
+        "Gemini",
+        "Perplexity",
+        "33 à 94 réponses"
+      ]
     }
   ],
   "excluded_angles": [
