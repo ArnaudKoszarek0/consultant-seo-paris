@@ -2539,6 +2539,25 @@
         "Perplexity",
         "33 à 94 réponses"
       ]
+    },
+    {
+      "slug": "search-console-impressions-ia-liens-affiches",
+      "themes": [
+        "comptage des impressions IA Search Console",
+        "liens affichés dans AI Overviews et AI Mode",
+        "biais de mesure du CTR IA",
+        "reporting visibilité IA"
+      ],
+      "keywords": [
+        "Search Console",
+        "impressions IA",
+        "AI Overviews",
+        "AI Mode",
+        "liens affichés",
+        "Afficher plus",
+        "CTR IA",
+        "John Mueller"
+      ]
     }
   ],
   "excluded_angles": [
