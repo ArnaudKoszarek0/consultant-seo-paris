@@ -32,7 +32,7 @@ Point important : le rapport couvre uniquement le **trafic IA organique**, notam
 
 Autrement dit, une part de voix de 30 % ne dit pas si ces apparitions ont généré 3 ventes, 300 visites ou aucun clic. Elle indique que le catalogue existe dans l'espace conversationnel de Google. C'est un KPI de visibilité, pas un KPI business.
 
-Il faut résister à la tentation de le transformer immédiatement en score absolu. Le périmètre concurrentiel est défini par Merchant Center, chaque catégorie doit être consultée séparément et il n'existe pas de vue globale de toutes les catégories. Les comparaisons entre comptes ou secteurs seront donc fragiles.
+Ce score reste relatif : Merchant Center définit les concurrents et impose une lecture catégorie par catégorie. Les comparaisons entre secteurs seront fragiles.
 
 ## Le flux produit devient un actif SEO
 
