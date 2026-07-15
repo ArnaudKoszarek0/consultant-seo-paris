@@ -2613,6 +2613,24 @@
         "zero-click logistique",
         "SEO e-commerce"
       ]
+    },
+    {
+      "slug": "ab-testing-seo-google-indexation-variante",
+      "themes": [
+        "A/B testing et indexation Google",
+        "variantes de contenu et SEO",
+        "expérimentation de refonte",
+        "contrôle technique des tests web"
+      ],
+      "keywords": [
+        "A/B testing SEO",
+        "indexation variante",
+        "Googlebot expérimentation",
+        "redirection 302",
+        "canonical test",
+        "cloaking",
+        "holdout 6 à 12 mois"
+      ]
     }
   ],
   "excluded_angles": [
