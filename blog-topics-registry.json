@@ -2650,6 +2650,25 @@
         "flux produit SEO",
         "audit Merchant Center"
       ]
+    },
+    {
+      "slug": "google-storebot-waf-produits-locaux",
+      "themes": [
+        "accessibilité Google StoreBot",
+        "blocage WAF et protection antibot e-commerce",
+        "crawl des pages produits en magasin",
+        "diagnostic technique Merchant Center"
+      ],
+      "keywords": [
+        "Google StoreBot",
+        "WAF e-commerce",
+        "crawler produits locaux",
+        "Merchant Center",
+        "fingerprinting antibot",
+        "DNS inverse Google",
+        "12 à 48 heures",
+        "annonces produits en magasin"
+      ]
     }
   ],
   "excluded_angles": [
