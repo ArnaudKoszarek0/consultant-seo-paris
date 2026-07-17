@@ -2669,6 +2669,25 @@
         "12 à 48 heures",
         "annonces produits en magasin"
       ]
+    },
+    {
+      "slug": "google-gemininotebook-user-agent-logs",
+      "themes": [
+        "renommage du fetcher NotebookLM en Gemini Notebook",
+        "analyse de logs des fetchers Google",
+        "WAF et user-agents déclenchés par les utilisateurs",
+        "robots.txt ignoré par Google-GeminiNotebook"
+      ],
+      "keywords": [
+        "Google-GeminiNotebook",
+        "Google-NotebookLM",
+        "Gemini Notebook",
+        "user-agent",
+        "fetcher Google",
+        "logs serveur",
+        "WAF",
+        "août 2026"
+      ]
     }
   ],
   "excluded_angles": [
