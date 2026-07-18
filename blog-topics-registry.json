@@ -2688,6 +2688,25 @@
         "WAF",
         "août 2026"
       ]
+    },
+    {
+      "slug": "google-exploree-non-indexee-qualite-contenu-ia",
+      "themes": [
+        "Explorée actuellement non indexée Search Console",
+        "qualité globale du site et indexation",
+        "contenu IA générique hors index",
+        "audit des pages non indexées"
+      ],
+      "keywords": [
+        "Explorée actuellement non indexée",
+        "Crawled currently not indexed",
+        "Search Console indexation",
+        "qualité site Google",
+        "contenu IA",
+        "John Mueller",
+        "logs serveur",
+        "audit indexation"
+      ]
     }
   ],
   "excluded_angles": [
