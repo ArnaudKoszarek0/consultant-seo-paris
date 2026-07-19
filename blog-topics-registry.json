@@ -2707,6 +2707,24 @@
         "logs serveur",
         "audit indexation"
       ]
+    },
+    {
+      "slug": "google-top-stories-ai-overviews-actualite",
+      "themes": [
+        "Top Stories dans AI Overviews",
+        "actualité chaude dans la recherche IA",
+        "Preferred Sources et fidélité éditoriale",
+        "visibilité des éditeurs dans Google Search"
+      ],
+      "keywords": [
+        "Top Stories",
+        "AI Overviews",
+        "Preferred Sources",
+        "carrousel actualités Google",
+        "SEO actualité",
+        "345 000 sources",
+        "clic multiplié par deux"
+      ]
     }
   ],
   "excluded_angles": [
