@@ -2745,6 +2745,26 @@
         "migration API e-commerce",
         "SEO e-commerce"
       ]
+    },
+    {
+      "slug": "search-console-erreurs-checklist-seo",
+      "themes": [
+        "Search Console comme outil de tendances",
+        "erreurs 404 attendues",
+        "pages non indexées normales",
+        "diagnostic SEO par patterns",
+        "limites du bouton Valider la correction"
+      ],
+      "keywords": [
+        "Search Console erreurs",
+        "404 SEO",
+        "pages non indexées",
+        "Valider la correction",
+        "rapport d indexation",
+        "John Mueller",
+        "Martin Splitt",
+        "checklist SEO"
+      ]
     }
   ],
   "excluded_angles": [
