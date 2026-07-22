@@ -2765,6 +2765,24 @@
         "Martin Splitt",
         "checklist SEO"
       ]
+    },
+    {
+      "slug": "gemini-3-5-flash-lite-search-seo",
+      "themes": [
+        "Gemini 3.5 Flash-Lite dans Google Search",
+        "recherche agentique à faible latence",
+        "décomposition des requêtes par agents",
+        "contenu factuel extractible pour Search"
+      ],
+      "keywords": [
+        "Gemini 3.5 Flash-Lite",
+        "Google Search",
+        "recherche agentique",
+        "350 tokens par seconde",
+        "faible latence",
+        "agentic search",
+        "SEO 2026"
+      ]
     }
   ],
   "excluded_angles": [
