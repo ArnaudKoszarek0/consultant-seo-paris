@@ -5,7 +5,7 @@ date: "2026-07-23"
 tags: ["seo", "actualite"]
 ---
 
-Google modifie son bloc hôtel en Europe. Le SEO hôtelier change de terrain
+# Google modifie son bloc hôtel en Europe : le SEO hôtelier change de terrain
 
 Les résultats hôteliers de Google bougent en Europe. Sur des requêtes génériques comme « hôtels à Playa de Palma », un nouveau parcours a été observé le 23 juillet 2026 : Google affiche d'abord plusieurs plateformes de voyage, puis un bloc consacré aux sites officiels des hôtels.
 
