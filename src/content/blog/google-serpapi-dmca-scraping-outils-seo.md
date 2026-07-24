@@ -2,7 +2,7 @@
 title: "Google perd une manche contre SerpApi : impact sur les outils SEO"
 description: "La justice rejette les demandes DMCA de Google contre SerpApi. Analyse des conséquences pour le rank tracking, le scraping des SERP et les données SEO."
 date: "2026-07-24"
-tags: [\"seo\", \"actualite\"]
+tags: ["seo", "actualite"]
 ---
 
 # Google perd une manche contre SerpApi : ce que cela change pour les outils SEO
