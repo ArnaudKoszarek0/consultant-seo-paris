@@ -2822,6 +2822,23 @@
         "Yvonne Gonzalez Rogers",
         "21 jours"
       ]
+    },
+    {
+      "slug": "robots-txt-googlebot-regle-specifique-spam-recherche",
+      "themes": [
+        "priorité des groupes user-agent robots.txt",
+        "Googlebot et groupe générique wildcard",
+        "spam des résultats de recherche interne",
+        "désindexation des pages de recherche Shopify"
+      ],
+      "keywords": [
+        "robots.txt Googlebot",
+        "user-agent spécifique",
+        "User-agent *",
+        "search box spam",
+        "noindex Shopify",
+        "RFC 9309"
+      ]
     }
   ],
   "excluded_angles": [
