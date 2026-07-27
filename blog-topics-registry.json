@@ -2859,6 +2859,25 @@
         "score de friction SEO",
         "intentions recherche IA"
       ]
+    },
+    {
+      "slug": "google-avis-incites-action-manuelle-2026",
+      "themes": [
+        "nouvelles règles Google sur les avis incités",
+        "actions manuelles liées aux review snippets",
+        "transparence des contreparties dans les témoignages",
+        "audit Review et AggregateRating"
+      ],
+      "keywords": [
+        "avis incités Google",
+        "review snippet",
+        "action manuelle",
+        "AggregateRating",
+        "avis faux",
+        "produit offert",
+        "coupon avis client",
+        "données structurées Review"
+      ]
     }
   ],
   "excluded_angles": [
