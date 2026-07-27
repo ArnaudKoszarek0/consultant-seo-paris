@@ -2894,6 +2894,25 @@
         "citations par secteur",
         "GEO vertical"
       ]
+    },
+    {
+      "slug": "search-console-recrawl-robots-txt-erreur",
+      "themes": [
+        "échec intermittent de la demande de recrawl robots.txt dans Search Console",
+        "cache robots.txt Google jusqu’à 24 heures",
+        "diagnostic serveur après modification des règles de crawl",
+        "différence entre relecture robots.txt et exploration des URL"
+      ],
+      "keywords": [
+        "Search Console robots.txt",
+        "Request a recrawl",
+        "Re-crawl request failed",
+        "cache robots.txt 24 heures",
+        "Googlebot",
+        "logs serveur SEO",
+        "HTTP 200",
+        "500 Kio"
+      ]
     }
   ],
   "excluded_angles": [
