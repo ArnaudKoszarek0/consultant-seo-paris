@@ -2861,22 +2861,20 @@
       ]
     },
     {
-      "slug": "google-avis-incites-action-manuelle-2026",
+      "slug": "google-avis-incites-donnees-structurees-review",
       "themes": [
-        "nouvelles règles Google sur les avis incités",
-        "actions manuelles liées aux review snippets",
-        "transparence des contreparties dans les témoignages",
-        "audit Review et AggregateRating"
+        "avis incités Google",
+        "données structurées Review",
+        "transparence des contreparties",
+        "audit AggregateRating"
       ],
       "keywords": [
-        "avis incités Google",
-        "review snippet",
-        "action manuelle",
+        "avis incités",
+        "Review",
         "AggregateRating",
-        "avis faux",
         "produit offert",
-        "coupon avis client",
-        "données structurées Review"
+        "avis faux",
+        "données structurées avis"
       ]
     }
   ],
