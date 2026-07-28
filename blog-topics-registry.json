@@ -2913,6 +2913,25 @@
         "HTTP 200",
         "500 Kio"
       ]
+    },
+    {
+      "slug": "claude-chats-indexes-robots-noindex",
+      "themes": [
+        "conversations Claude partagées indexées par Google et Bing",
+        "conflit entre Disallow robots.txt et directive noindex",
+        "protection des liens de partage et contenus sensibles",
+        "différence entre contrôle du crawl, indexation et authentification"
+      ],
+      "keywords": [
+        "Claude chats indexés",
+        "robots.txt Disallow",
+        "noindex",
+        "X-Robots-Tag",
+        "liens de partage",
+        "confidentialité SEO",
+        "Googlebot",
+        "désindexation"
+      ]
     }
   ],
   "excluded_angles": [
