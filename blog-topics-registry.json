@@ -2952,6 +2952,25 @@
         "agents IA",
         "confiance contenu"
       ]
+    },
+    {
+      "slug": "citations-fantomes-ia-marque-geo",
+      "themes": [
+        "citations fantômes dans les moteurs IA",
+        "écart entre citation et mention de marque",
+        "mesure GEO de la reconnaissance de marque",
+        "attribution des études et données propriétaires"
+      ],
+      "keywords": [
+        "citations fantômes",
+        "ghost citations",
+        "mention de marque IA",
+        "40% citations sans marque",
+        "Perplexity 52%",
+        "Google AI Mode 49%",
+        "GEO attribution",
+        "visibilité marque IA"
+      ]
     }
   ],
   "excluded_angles": [
