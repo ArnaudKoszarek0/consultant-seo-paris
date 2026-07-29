@@ -2932,6 +2932,26 @@
         "Googlebot",
         "désindexation"
       ]
+    },
+    {
+      "slug": "google-okf-signaux-confiance-agents-ia",
+      "themes": [
+        "Open Knowledge Format OKF v0.2",
+        "signaux de confiance pour agents IA",
+        "provenance et vérification des connaissances",
+        "fraîcheur cycle de vie et attestation",
+        "gouvernance des contenus SEO"
+      ],
+      "keywords": [
+        "OKF v0.2",
+        "Open Knowledge Format",
+        "provenance",
+        "verified",
+        "stale_after",
+        "Attested Computation",
+        "agents IA",
+        "confiance contenu"
+      ]
     }
   ],
   "excluded_angles": [
