@@ -2971,6 +2971,25 @@
         "GEO attribution",
         "visibilité marque IA"
       ]
+    },
+    {
+      "slug": "google-stock-conflict-html-schema-flux",
+      "themes": [
+        "conflits de disponibilité e-commerce",
+        "cohérence HTML JSON-LD flux Merchant Center",
+        "ordre de priorité metadata Google non publié",
+        "audit source de vérité stock produit"
+      ],
+      "keywords": [
+        "stock e-commerce",
+        "Offer.availability",
+        "Merchant Center",
+        "données structurées produit",
+        "métadonnées contradictoires",
+        "HTML initial",
+        "flux produit",
+        "John Mueller"
+      ]
     }
   ],
   "excluded_angles": [
