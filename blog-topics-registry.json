@@ -3025,6 +3025,24 @@
         "désindexation prématurée",
         "contenus éphémères SEO"
       ]
+    },
+    {
+      "slug": "google-filtre-recent-bug-observabilite-seo",
+      "themes": [
+        "bug filtre Récent Google Search et Google News",
+        "fraîcheur des résultats en temps réel",
+        "observabilité SEO pour les éditeurs",
+        "diagnostic crawl indexation affichage"
+      ],
+      "keywords": [
+        "filtre Récent Google",
+        "Dernière heure Google",
+        "Google News tri par date",
+        "bug Google Search août 2026",
+        "SEO temps réel",
+        "logs Googlebot",
+        "fraîcheur SERP"
+      ]
     }
   ],
   "excluded_angles": [
