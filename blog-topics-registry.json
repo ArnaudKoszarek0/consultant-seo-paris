@@ -3007,6 +3007,24 @@
         "bug SEO local",
         "48 heures"
       ]
+    },
+    {
+      "slug": "google-unavailable-after-renouvellement-indexation",
+      "themes": [
+        "directive unavailable_after Google",
+        "renouvellement annonces et désindexation prématurée",
+        "crawl Googlebot avant date expiration",
+        "gestion SEO des contenus courts et expirables"
+      ],
+      "keywords": [
+        "unavailable_after",
+        "annonces renouvelées",
+        "date expiration Google",
+        "X-Robots-Tag",
+        "crawl Googlebot",
+        "désindexation prématurée",
+        "contenus éphémères SEO"
+      ]
     }
   ],
   "excluded_angles": [
