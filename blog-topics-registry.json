@@ -3043,6 +3043,26 @@
         "logs Googlebot",
         "fraîcheur SERP"
       ]
+    },
+    {
+      "slug": "google-http-304-crawl-budget",
+      "themes": [
+        "HTTP 304 Not Modified pour Googlebot",
+        "cache HTTP et efficacité du crawl",
+        "capacité partagée des crawlers Google",
+        "ETag et Last-Modified en SEO technique"
+      ],
+      "keywords": [
+        "HTTP 304",
+        "Not Modified",
+        "crawl budget",
+        "ETag",
+        "Last-Modified",
+        "If-None-Match",
+        "If-Modified-Since",
+        "Googlebot",
+        "cache HTTP"
+      ]
     }
   ],
   "excluded_angles": [
