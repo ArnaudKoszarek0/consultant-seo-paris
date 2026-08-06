@@ -3099,6 +3099,25 @@
         "cluster éditorial",
         "SERP Bing août 2026"
       ]
+    },
+    {
+      "slug": "search-console-requetes-ai-mode-conversationnelles",
+      "themes": [
+        "requêtes conversationnelles AI Mode dans Search Console",
+        "questions de suivi AI Mode comptées comme nouvelles requêtes",
+        "écart entre rapport Performance et rapport IA générative",
+        "segmentation exploratoire des requêtes conversationnelles"
+      ],
+      "keywords": [
+        "Search Console",
+        "requêtes AI Mode",
+        "requêtes conversationnelles",
+        "questions de suivi",
+        "rapport Performance",
+        "rapport IA générative",
+        "oui",
+        "John Mueller"
+      ]
     }
   ],
   "excluded_angles": [
