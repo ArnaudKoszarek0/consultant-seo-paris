@@ -3118,6 +3118,27 @@
         "oui",
         "John Mueller"
       ]
+    },
+    {
+      "slug": "googlebot-methodes-http-javascript-securite",
+      "themes": [
+        "méthodes HTTP utilisées par les crawlers Google",
+        "requêtes JavaScript pendant le rendu Googlebot",
+        "sécurité des API et effets de bord du crawl",
+        "audit WAF et logs serveur par méthode HTTP"
+      ],
+      "keywords": [
+        "Googlebot",
+        "HEAD",
+        "OPTIONS",
+        "PUT",
+        "PATCH",
+        "DELETE",
+        "méthodes HTTP",
+        "JavaScript rendering",
+        "WAF",
+        "405 Method Not Allowed"
+      ]
     }
   ],
   "excluded_angles": [
