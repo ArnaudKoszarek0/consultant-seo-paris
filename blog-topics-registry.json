@@ -3250,6 +3250,25 @@
         "gouvernance flux produit",
         "SEO e-commerce agence"
       ]
+    },
+    {
+      "slug": "googlebot-geolocalisation-ip-waf-crawl",
+      "themes": [
+        "localisation réelle des points de sortie Googlebot",
+        "géolocalisation IP et crawl Google",
+        "règles WAF CDN pour Googlebot",
+        "vérification DNS et plages IP des robots Google"
+      ],
+      "keywords": [
+        "Googlebot géolocalisation",
+        "Mountain View",
+        "points de sortie Googlebot",
+        "WAF Googlebot",
+        "reverse DNS",
+        "plages IP Google",
+        "crawl international",
+        "Gary Illyes"
+      ]
     }
   ],
   "excluded_angles": [
