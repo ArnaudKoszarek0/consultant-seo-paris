@@ -3288,6 +3288,25 @@
         "Nexus AT LLC",
         "Disavow Tool"
       ]
+    },
+    {
+      "slug": "ordre-sujet-objet-entites-ia-seo",
+      "themes": [
+        "ordre sujet-objet des entités dans les réponses IA",
+        "échec de rappel factuel des LLM",
+        "reversal curse et SEO",
+        "faits de longue traîne dans les moteurs génératifs"
+      ],
+      "keywords": [
+        "ordre sujet-objet",
+        "entités SEO",
+        "rappel factuel IA",
+        "reversal curse",
+        "WikiProfile",
+        "relations sémantiques",
+        "Google Research",
+        "2 150 faits"
+      ]
     }
   ],
   "excluded_angles": [
