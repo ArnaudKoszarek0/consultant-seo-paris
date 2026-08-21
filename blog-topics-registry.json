@@ -3382,6 +3382,25 @@
         "récupération plusieurs mois",
         "SpamBrain"
       ]
+    },
+    {
+      "slug": "google-json-ld-unescape-googlebot",
+      "themes": [
+        "extraction JSON-LD Googlebot",
+        "échappement HTML dans les données structurées",
+        "RFC 8259 et JSON strict",
+        "audit technique des rich results"
+      ],
+      "keywords": [
+        "JSON-LD",
+        "HTML unescaping",
+        "double échappement",
+        "Googlebot",
+        "RFC 8259",
+        "données structurées",
+        "rich results",
+        "21 août 2026"
+      ]
     }
   ],
   "excluded_angles": [
