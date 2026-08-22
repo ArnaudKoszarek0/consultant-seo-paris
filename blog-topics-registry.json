@@ -3401,6 +3401,24 @@
         "rich results",
         "21 août 2026"
       ]
+    },
+    {
+      "slug": "search-console-crawl-stats-aout-2026-donnees-manquantes",
+      "themes": [
+        "données manquantes Crawl Stats Search Console",
+        "bug de reporting crawl août 2026",
+        "diagnostic Googlebot par logs serveur",
+        "observabilité SEO technique"
+      ],
+      "keywords": [
+        "Search Console Crawl Stats",
+        "statistiques exploration",
+        "15 et 16 août 2026",
+        "données manquantes",
+        "logs Googlebot",
+        "bug reporting SEO",
+        "observabilité SEO"
+      ]
     }
   ],
   "excluded_angles": [
