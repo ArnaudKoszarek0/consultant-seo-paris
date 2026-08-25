@@ -3456,6 +3456,25 @@
         "SEO e-commerce",
         "31 janvier 2027"
       ]
+    },
+    {
+      "slug": "googlebot-json-crawl-indexation",
+      "themes": [
+        "séparation crawl et indexation Google",
+        "Googlebot ne parse pas les fichiers JSON",
+        "diagnostic SEO des ressources JSON",
+        "infrastructure partagée Google Search Merchant Center"
+      ],
+      "keywords": [
+        "Googlebot JSON",
+        "parsing JSON",
+        "crawl Google",
+        "indexeur Google",
+        "fichiers JSON",
+        "logs serveur",
+        "Gary Illyes",
+        "25 août 2026"
+      ]
     }
   ],
   "excluded_angles": [
