@@ -3532,6 +3532,25 @@
         "transparence Google Search",
         "28 août 2026"
       ]
+    },
+    {
+      "slug": "google-panne-serving-indexation-aout-2026",
+      "themes": [
+        "incident Google Search du 28 août 2026",
+        "différence crawl indexation et serving",
+        "contenus frais absents des SERP",
+        "diagnostic SEO par logs serveur"
+      ],
+      "keywords": [
+        "panne indexation Google",
+        "serving Google Search",
+        "contenus frais",
+        "Search Status Dashboard",
+        "inspection URL",
+        "logs Googlebot",
+        "80 minutes",
+        "28 août 2026"
+      ]
     }
   ],
   "excluded_angles": [
