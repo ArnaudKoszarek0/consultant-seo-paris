@@ -3608,6 +3608,25 @@
         "groupes publics",
         "SEO communautaire"
       ]
+    },
+    {
+      "slug": "liens-sortants-domaines-expires-penalite-google",
+      "themes": [
+        "liens sortants anciens vers des domaines expirés",
+        "absence de pénalité Google pour une destination devenue douteuse",
+        "audit éditorial des liens externes obsolètes",
+        "maintenance des sources et domaines recyclés"
+      ],
+      "keywords": [
+        "liens sortants",
+        "domaines expirés",
+        "pénalité Google",
+        "outbound links",
+        "liens externes obsolètes",
+        "domaine recyclé",
+        "John Mueller",
+        "1er septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
