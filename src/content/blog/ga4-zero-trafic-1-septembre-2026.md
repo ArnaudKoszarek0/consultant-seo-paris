@@ -2,7 +2,7 @@
 title: "GA4 affiche zéro trafic le 1er septembre 2026 : ne touchez pas à votre SEO"
 description: "GA4 affiche zéro trafic pour le 1er septembre 2026. Voici comment distinguer un bug de reporting d'une vraie chute SEO sans casser votre tracking."
 date: "2026-09-02"
-tags: [\"seo\", \"actualite\"]
+tags: ["seo", "actualite"]
 ---
 
 Le 2 septembre 2026, de nombreux comptes Google Analytics 4 affichent **zéro trafic pour le 1er septembre** dans leurs graphiques principaux. Les plaintes remontent à la fois dans les forums Google Analytics, sur WebmasterWorld et sur les réseaux sociaux. Plusieurs consultants observent le même trou sur plusieurs propriétés clientes.

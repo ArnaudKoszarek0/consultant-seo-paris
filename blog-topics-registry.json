@@ -3627,6 +3627,24 @@
         "John Mueller",
         "1er septembre 2026"
       ]
+    },
+    {
+      "slug": "ga4-zero-trafic-1-septembre-2026",
+      "themes": [
+        "incident GA4 données manquantes du 1er septembre 2026",
+        "distinction panne de reporting et chute de trafic SEO",
+        "diagnostic croisé GA4 Search Console logs et données métier",
+        "résilience du reporting SEO face aux pannes fournisseurs"
+      ],
+      "keywords": [
+        "GA4 zéro trafic",
+        "Google Analytics données manquantes",
+        "1er septembre 2026",
+        "bug reporting GA4",
+        "logs serveur",
+        "diagnostic trafic SEO",
+        "annotation analytics"
+      ]
     }
   ],
   "excluded_angles": [
