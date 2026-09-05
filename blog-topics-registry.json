@@ -3682,6 +3682,26 @@
         "SEO local",
         "4 septembre 2026"
       ]
+    },
+    {
+      "slug": "sitemap-cache-busting-google-crawl",
+      "themes": [
+        "cache-busting des sitemaps XML",
+        "stabilité des URL de sitemap",
+        "différence entre téléchargement du sitemap et crawl des pages",
+        "usage fiable de lastmod pour Googlebot"
+      ],
+      "keywords": [
+        "sitemap cache-busting",
+        "?v=timestamp",
+        "lastmod",
+        "crawl Googlebot",
+        "index sitemap",
+        "50 000 URL",
+        "50 Mo",
+        "John Mueller",
+        "5 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
