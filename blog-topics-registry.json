@@ -3757,6 +3757,25 @@
         "éligibilité fournisseur spécialisé",
         "8 septembre 2026"
       ]
+    },
+    {
+      "slug": "google-people-also-ask-reponses-ia-seo",
+      "themes": [
+        "réponses générées par IA dans les People Also Ask",
+        "échantillon anglophone AlsoAsked septembre 2026",
+        "audit des questions dépliables Google",
+        "priorisation des pages éditoriales issues des PAA"
+      ],
+      "keywords": [
+        "People Also Ask",
+        "PAA",
+        "Autres questions Google",
+        "AlsoAsked",
+        "97% réponses IA",
+        "19,2 millions",
+        "Allintitle",
+        "audit PAA SEO"
+      ]
     }
   ],
   "excluded_angles": [
