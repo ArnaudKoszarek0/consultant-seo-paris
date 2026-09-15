@@ -3795,6 +3795,25 @@
         "consensus SEO",
         "budget SEO"
       ]
+    },
+    {
+      "slug": "crux-metriques-publicite-ad-density-seo",
+      "themes": [
+        "nouvelles métriques publicitaires CrUX septembre 2026",
+        "mesure de la pression publicitaire vécue dans Chrome",
+        "corrélation Ad Weight avec Core Web Vitals",
+        "gouvernance SEO publicité performance web"
+      ],
+      "keywords": [
+        "CrUX ad metrics",
+        "Ad Count",
+        "Ad Density",
+        "Ad Weight",
+        "Network Usage",
+        "CPU Usage",
+        "Chrome User Experience Report",
+        "15 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
