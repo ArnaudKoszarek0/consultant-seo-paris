@@ -3814,6 +3814,25 @@
         "Chrome User Experience Report",
         "15 septembre 2026"
       ]
+    },
+    {
+      "slug": "conflit-memoire-sources-ia-diagnostic-geo",
+      "themes": [
+        "conflit entre mémoire paramétrique et sources récupérées par les IA",
+        "benchmark MemToC et arbitrage mémoire-outil",
+        "diagnostic des baisses de visibilité GEO",
+        "exactitude et stabilité des mentions de marque dans les réponses IA"
+      ],
+      "keywords": [
+        "MemToC",
+        "memory-tool conflict",
+        "visibilité IA",
+        "diagnostic GEO",
+        "récupération documentaire",
+        "rappel factuel LLM",
+        "6,5% à 17,1%",
+        "citations IA"
+      ]
     }
   ],
   "excluded_angles": [
