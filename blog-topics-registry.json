@@ -3851,6 +3851,24 @@
         "AI Overviews",
         "16 septembre 2026"
       ]
+    },
+    {
+      "slug": "google-search-live-gemini-3-8-seo-conversationnel",
+      "themes": [
+        "Google Search Live avec Gemini 3.8 Live",
+        "recherche conversationnelle audio et vidéo en temps réel",
+        "SEO pour requêtes vocales successives et multilingues",
+        "liens web dans les réponses Search Live"
+      ],
+      "keywords": [
+        "Google Search Live",
+        "Gemini 3.8 Live",
+        "SEO conversationnel",
+        "recherche vocale Google",
+        "query fan-out",
+        "recherche multilingue",
+        "15 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
