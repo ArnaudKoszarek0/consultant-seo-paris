@@ -3869,6 +3869,26 @@
         "recherche multilingue",
         "15 septembre 2026"
       ]
+    },
+    {
+      "slug": "merchant-api-avis-produit-seo-ecommerce",
+      "themes": [
+        "Merchant API pour les avis produit",
+        "automatisation Product Ratings Google",
+        "synchronisation avis et catalogue Merchant Center",
+        "SEO e-commerce et qualité du mapping produit"
+      ],
+      "keywords": [
+        "Merchant API",
+        "avis produit",
+        "Product Ratings",
+        "Merchant Center",
+        "50 avis",
+        "GTIN",
+        "flux avis produit",
+        "SEO e-commerce",
+        "18 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
