@@ -3948,6 +3948,25 @@
         "AI Mode",
         "19 septembre 2026"
       ]
+    },
+    {
+      "slug": "google-web-guide-recherche-classique-seo",
+      "themes": [
+        "Google Web Guide et bug du retour vers la recherche classique",
+        "SERP organisée par IA avec query fan-out",
+        "perte de sens de la position SEO linéaire",
+        "mesure de visibilité par blocs et sous-intentions"
+      ],
+      "keywords": [
+        "Google Web Guide",
+        "Classic search",
+        "query fan-out",
+        "Search Labs",
+        "SERP organisée par IA",
+        "position SEO",
+        "null://null",
+        "20 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
