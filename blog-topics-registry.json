@@ -3967,6 +3967,25 @@
         "null://null",
         "20 septembre 2026"
       ]
+    },
+    {
+      "slug": "lighthouse-13-5-ard-agents-ia",
+      "themes": [
+        "Lighthouse 13.5 Agentic Resource Discovery",
+        "catalogue ARD pour agents IA",
+        "audit technique du Web agentique",
+        "écart entre Lighthouse et spécification ARD v0.91"
+      ],
+      "keywords": [
+        "Lighthouse 13.5",
+        "Agentic Resource Discovery",
+        "ARD",
+        "ard.json",
+        "ai-catalog.json",
+        "Agentic Browsing",
+        "agents IA",
+        "21 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
