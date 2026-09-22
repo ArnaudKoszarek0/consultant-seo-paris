@@ -3986,6 +3986,25 @@
         "agents IA",
         "21 septembre 2026"
       ]
+    },
+    {
+      "slug": "ga4-filtre-include-hostname-donnees-seo",
+      "themes": [
+        "filtres Include hostname GA4",
+        "liste blanche des domaines Analytics",
+        "qualité des données SEO",
+        "protection contre le spam de mesure"
+      ],
+      "keywords": [
+        "GA4",
+        "hostname filter",
+        "Include filter",
+        "liste blanche GA4",
+        "Measurement Protocol",
+        "données SEO",
+        "24 à 36 heures",
+        "22 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
