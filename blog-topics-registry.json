@@ -4024,6 +4024,24 @@
         "données locales",
         "23 septembre 2026"
       ]
+    },
+    {
+      "slug": "search-console-multimodal-lens-seo",
+      "themes": [
+        "filtre Multimodal dans Google Search Console",
+        "mesure du trafic Google Lens et Circle to Search",
+        "séparation recherche textuelle et recherche visuelle",
+        "audit SEO visuel à partir des pages et du CTR"
+      ],
+      "keywords": [
+        "Search Console Multimodal",
+        "Google Lens",
+        "Circle to Search",
+        "recherche par image",
+        "trafic multimodal",
+        "SEO visuel",
+        "24 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
