@@ -4079,6 +4079,25 @@
         "diagnostic SEO",
         "24 septembre 2026"
       ]
+    },
+    {
+      "slug": "google-r4t-diffusion-query-fan-out-seo",
+      "themes": [
+        "R4T-Diffusion Google Research",
+        "query fan-out à faible latence",
+        "couverture SEO des sous-intentions",
+        "clusters éditoriaux complémentaires"
+      ],
+      "keywords": [
+        "R4T-Diffusion",
+        "Retrieve-for-Train",
+        "query fan-out",
+        "53,9 millions de paramètres",
+        "12 à 20 fois plus rapide",
+        "sous-intentions SEO",
+        "Google Research",
+        "27 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
