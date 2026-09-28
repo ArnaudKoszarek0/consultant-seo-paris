@@ -4098,6 +4098,26 @@
         "Google Research",
         "27 septembre 2026"
       ]
+    },
+    {
+      "slug": "google-videoobject-createur-compteurs-interactions",
+      "themes": [
+        "VideoObject creator et author",
+        "attribution des créateurs vidéo",
+        "séparation des compteurs de visionnages appréciations commentaires et repartages",
+        "audit de provenance des statistiques vidéo"
+      ],
+      "keywords": [
+        "VideoObject creator",
+        "author vidéo",
+        "interactionStatistic",
+        "WatchAction",
+        "LikeAction",
+        "CommentAction",
+        "ShareAction",
+        "userInteractionCount",
+        "24 septembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
