@@ -4136,6 +4136,23 @@
         "HTTP 200 consentement",
         "3 octobre 2026"
       ]
+    },
+    {
+      "slug": "google-ugc-fresh-data-delai-transmission",
+      "themes": [
+        "UGC Fresh Data Program Google",
+        "délai de transmission des contributions communautaires",
+        "fraîcheur des interactions pendant 72 heures",
+        "audit opérationnel avant candidature au programme UGC"
+      ],
+      "keywords": [
+        "UGC Fresh Data Program",
+        "transmission en quelques minutes",
+        "72 heures",
+        "candidature 6 à 8 semaines",
+        "flux JSON-LD UGC",
+        "8 octobre 2026"
+      ]
     }
   ],
   "excluded_angles": [
