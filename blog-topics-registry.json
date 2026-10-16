@@ -4205,6 +4205,24 @@
         "transfert panier marchand",
         "15 octobre 2026"
       ]
+    },
+    {
+      "slug": "google-indexing-api-quotas-file-notifications",
+      "themes": [
+        "clarification des quotas Indexing API du 16 octobre 2026",
+        "file de notifications des offres emploi",
+        "consommation des lots et priorité des suppressions",
+        "distinction réception API et indexation effective"
+      ],
+      "keywords": [
+        "Indexing API quotas",
+        "200 notifications par jour",
+        "URL_UPDATED",
+        "URL_DELETED",
+        "file notifications JobPosting",
+        "batch 100 URL",
+        "16 octobre 2026"
+      ]
     }
   ],
   "excluded_angles": [
