@@ -4223,6 +4223,23 @@
         "batch 100 URL",
         "16 octobre 2026"
       ]
+    },
+    {
+      "slug": "google-spam-plateforme-concentration-comptes",
+      "themes": [
+        "mise à jour du guide antispam UGC du 26 octobre 2026",
+        "concentration des créations URL publiques par compte utilisateur",
+        "détection précoce des abus de plateformes de publication",
+        "revue humaine des comptes producteurs et faux positifs"
+      ],
+      "keywords": [
+        "concentration URL par compte",
+        "comptes créateurs de pages",
+        "spam plateforme UGC",
+        "surveillance créations publiques",
+        "seuils alerte modération",
+        "26 octobre 2026"
+      ]
     }
   ],
   "excluded_angles": [
