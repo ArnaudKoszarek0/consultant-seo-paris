@@ -4240,6 +4240,24 @@
         "seuils alerte modération",
         "26 octobre 2026"
       ]
+    },
+    {
+      "slug": "lighthouse-audit-multi-url-recette-seo",
+      "themes": [
+        "Lighthouse 13.6 audit multi-URL séquentiel en CLI",
+        "recette de livraison SEO sur un échantillon de douze pages",
+        "comparabilité des rapports avant et après mise à jour de Lighthouse",
+        "gestion des échecs de lots et traçabilité des audits"
+      ],
+      "keywords": [
+        "Lighthouse 13.6 multi-URL",
+        "--url-file",
+        "--fail-fast",
+        "recette SEO 12 URL",
+        "36 mesures",
+        "Lantern simulation",
+        "27 octobre 2026"
+      ]
     }
   ],
   "excluded_angles": [
