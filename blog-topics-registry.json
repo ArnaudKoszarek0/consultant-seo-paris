@@ -4258,6 +4258,24 @@
         "Lantern simulation",
         "27 octobre 2026"
       ]
+    },
+    {
+      "slug": "google-cdn-cache-html-charge-origine",
+      "themes": [
+        "migration CDN et charge du serveur origine",
+        "distinction cache HTML froid et réponses non cacheables",
+        "recette de cache sur trente URL avant généralisation",
+        "annonce Google Search Central du 11 novembre 2026"
+      ],
+      "keywords": [
+        "migration CDN",
+        "cache HTML",
+        "CF-Cache-Status HIT MISS DYNAMIC BYPASS",
+        "charge origine",
+        "cache froid",
+        "30 URL",
+        "11 novembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
