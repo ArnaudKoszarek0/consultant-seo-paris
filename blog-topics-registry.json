@@ -4276,6 +4276,23 @@
         "30 URL",
         "11 novembre 2026"
       ]
+    },
+    {
+      "slug": "googleimageproxy-newsletter-faux-crawl-seo",
+      "themes": [
+        "documentation de GoogleImageProxy du 23 novembre 2026",
+        "séparation des chargements images email et exploration Search",
+        "biais de mesure du crawl après envoi de newsletter",
+        "recette de reclassement des logs sans blocage réseau"
+      ],
+      "keywords": [
+        "GoogleImageProxy",
+        "Google Image Proxy",
+        "images newsletter",
+        "faux pic crawl SEO",
+        "proxy images Gmail",
+        "23 novembre 2026"
+      ]
     }
   ],
   "excluded_angles": [
